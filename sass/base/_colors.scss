@@ -1,0 +1,44 @@
+// official
+$clr_primary: #000000;
+$clr_secondary: #3c3c3c;
+$clr_claro: #da291c;
+$clr_light: #ffffff;
+
+$clr_bg: #f5f7fa;
+$clr_border_line: #e6e6e6;
+$clr_border_line_card: #dfeaf2;
+
+$clr_title_card: #232323;
+$clr_description_card: #232323;
+$clr_bg_card: #fff;
+$clr_tag_card: #0097a9;
+
+$footer_bg: white;
+
+.dashboard {
+  color: $clr_secondary;
+  &__sidebar {
+    border-right: 1px solid $clr_border_line;
+  }
+  &__header {
+    color: $clr_primary;
+  }
+  &__main {
+    background-color: $clr_bg;
+  }
+}
+
+.card {
+  background: $clr_light;
+  border: 1px solid $clr_border_line_card;
+  &__title {
+    color: $clr_primary;
+  }
+  &__tags {
+    background: $clr_light;
+    .card__tag {
+      background: rgba($clr_tag_card, 0.1);
+      color: $clr_tag_card;
+    }
+  }
+}

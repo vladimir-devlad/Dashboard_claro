@@ -1,0 +1,292 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+*::before,
+*::after {
+  display: block;
+}
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a {
+  display: inline;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+::selection {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background: transparent;
+  color: inherit;
+  display: block;
+  appearance: none;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+svg {
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  grid-template-rows: 90px 1fr auto;
+  grid-template-areas: "sidebar header" "sidebar main" "sidebar footer";
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.dashboard {
+  color: #3c3c3c;
+}
+.dashboard__sidebar {
+  border-right: 1px solid #e6e6e6;
+}
+.dashboard__header {
+  color: #000000;
+}
+.dashboard__main {
+  background-color: #f5f7fa;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dfeaf2;
+}
+.card__title {
+  color: #000000;
+}
+.card__tags {
+  background: #ffffff;
+}
+.card__tags .card__tag {
+  background: rgba(0, 151, 169, 0.1);
+  color: #0097a9;
+}
+
+.dashboard {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.dashboard__header {
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 40px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #ffffff;
+}
+.dashboard__header-title {
+  font: 600 28px/normal "Inter", sans-serif;
+}
+
+.dashboard__main {
+  grid-area: main;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.dashboard__main-content {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.cards-powerbi {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  width: 100%;
+  gap: 16px;
+  min-height: 0;
+}
+.cards-powerbi__information {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.cards-powerbi__information {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.cards-powerbi__title {
+  font: 600 22px/normal "Inter", sans-serif;
+}
+.cards-powerbi__list {
+  overflow-y: auto;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+  gap: 10px;
+  max-width: none;
+  padding-bottom: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 10px;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 214px;
+  cursor: pointer;
+}
+.card__image {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.card__title {
+  height: 60px;
+  font: 500 14px/normal "Inter", sans-serif;
+}
+.card__tags .card__tag {
+  padding: 6px;
+  border-radius: 4px;
+  font: 300 11px/normal "Inter", sans-serif;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  z-index: 1000;
+}
+.modal__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal__content {
+  position: relative;
+  background: #ffffff;
+  max-width: 500px;
+  min-height: 250px;
+  margin: 20% auto;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 1;
+}
+.modal__title {
+  margin-bottom: 10px;
+}
+
+.modal.active {
+  display: block;
+}
+
+.modal__description {
+  margin-bottom: 20px;
+}
+
+.modal__button {
+  padding: 10px 16px;
+  background: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+// =============================
+// Font families
+// =============================
+$ff-base:
+  "Inter",
+  system-ui,
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  sans-serif;
+
+// Tipografía global
+$fontH1:
+  600 28px / normal "Inter",
+  sans-serif;
+$fontH2:
+  600 22px / normal "Inter",
+  sans-serif;
+$fontH3:
+  500 14px / normal "Inter",
+  sans-serif;
+
+$fontLabelTag:
+  300 11px / normal "Inter",
+  sans-serif;
+
+$fontAsidebarNav:
+  400 16px / normal "Inter",
+  sans-serif;
+
+$fontDesciptionCard1:
+  300 16px / normal "Manrope",
+  sans-serif;
+$fontDesciptionCard2:
+  300 14px / 20px "Manrope",
+  sans-serif;
+
+$fontBtn:
+  400 18px / normal "Inter",
+  sans-serif;
+
+// _typography.scss
+$font-base: "Inter", sans-serif;
+
+// Escala tipográfica base
+$fs-xxl: 48px; // H1 principal (hero)
+$fs-xl: 32px; // H1/H2 secundarios
+$fs-lg: 20px; // Secciones, títulos de card grandes
+$fs-md: 18px; // Subtítulo, textos destacados
+$fs-base: 16px; // Párrafos, body text
+$fs-sm: 14px; // Card text, botones
+$fs-xs: 12px; // Tags, labels pequeños
+
+// Line heights (1.2 para títulos, 1.5 texto)
+$lh-title: 1.2;
+$lh-text: 1.5;
+
+// Ejemplo de font-weight
+$fw-bold: 700;
+$fw-medium: 500;
+$fw-regular: 400;
+$fw-light: 300;
+
+.dashboard {
+  font-family: $ff-base;
+  font-size: 14px;
+  font-weight: $fw-light;
+}

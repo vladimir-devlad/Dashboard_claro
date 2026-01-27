@@ -1,0 +1,25 @@
+@use "../base/layout" as layout;
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  grid-template-rows: 90px 1fr auto;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main"
+    "sidebar footer";
+  min-height: 100vh;
+  // overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+// @media (max-width: 768px) {
+//   .dashboard {
+//     grid-template-columns: 1fr;
+//     grid-template-rows: auto 1fr auto;
+//     grid-template-areas:
+//       "header"
+//       "main"
+//       "footer";
+//   }
+// }

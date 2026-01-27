@@ -1,0 +1,52 @@
+@use "../base/colors" as clr;
+@use "../base/typography" as typo;
+@use "../base/mixins" as mixi;
+
+.dashboard__main {
+  grid-area: main;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+  &-content {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    min-height: 0;
+    // background-color: greenyellow;
+  }
+}
+.cards-powerbi {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  width: 100%;
+  gap: 16px;
+  min-height: 0;
+  &__information {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+  &__title {
+    font: typo.$fontH2;
+  }
+  &__list {
+    overflow-y: auto;
+    min-height: 0;
+    display: grid;
+    // width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
+    gap: 10px;
+    max-width: none;
+    padding-bottom: 24px;
+  }
+}
