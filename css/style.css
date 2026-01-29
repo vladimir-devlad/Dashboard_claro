@@ -171,7 +171,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 40px;
+  padding: 26px 16px;
   border-bottom: 1px solid #e6e6e6;
   background-color: #ffffff;
 }
@@ -182,13 +182,21 @@ p {
   width: 90px;
 }
 .dashboard__header-title {
-  font: 700 26px/normal "Arimo", sans-serif;
+  font: 700 18px/normal "Arimo", sans-serif;
 }
 .dashboard__header-search {
   width: 260px;
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .dashboard__header-logo {
+    display: none;
+  }
+  .dashboard__header-title {
+    font: 700 26px/normal "Arimo", sans-serif;
+  }
+}
 .dashboard__sidebar {
   grid-area: sidebar;
   flex-direction: column;
@@ -305,6 +313,12 @@ p {
   .cards-powerbi__information {
     text-align: left;
   }
+  .cards-powerbi__title {
+    font: 600 22px/normal "Arimo", sans-serif;
+  }
+  .cards-powerbi__description {
+    font: 400 14px/normal "Arimo", sans-serif;
+  }
   .cards-powerbi__list {
     grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
     min-height: 150px;
@@ -316,6 +330,7 @@ p {
   }
   .cards-powerbi__header-search {
     display: block;
+    width: 450px;
   }
 }
 .dashboard__footer {
@@ -491,10 +506,11 @@ p {
   }
 }
 .header__input {
-  padding: 6px 12px;
-  border: 1px solid #1B0E2F;
+  padding: 12px 24px;
+  border: 2px solid #e6e6e6;
   border-radius: 50px;
   width: 100%;
+  color: #1B0E2F;
 }
 
 .btn {

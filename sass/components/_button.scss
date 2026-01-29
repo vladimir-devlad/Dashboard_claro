@@ -3,10 +3,11 @@
 @use "../base/mixins" as mixi;
 
 .header__input {
-  padding: 6px 12px;
-  border: 1px solid clr.$clr_secondary;
+  padding: 12px 24px;
+  border: 2px solid clr.$clr_border_line;
   border-radius: 50px;
   width: 100%;
+  color: clr.$clr_title;
 }
 
 .btn {

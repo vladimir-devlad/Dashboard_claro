@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 26px 40px;
+  padding: 26px 16px;
   border-bottom: 1px solid clr.$clr_border_line;
   background-color: clr.$clr_light;
   &-img {
@@ -21,16 +21,21 @@
     width: 90px;
   }
   &-title {
-    font: typo.$fontH1Desktop;
+    font: typo.$fontH1Mobile;
   }
   &-search {
     width: 260px;
     text-align: center;
   }
-  // &-avatar{
-  //   background-color: black;
-  //   width: 45px;
-  //   height: 45px;
-  //   border-radius: 50%;
-  // }
+}
+
+@media (min-width: 768px) {
+  .dashboard__header{
+    &-logo{
+      display: none;
+    }
+    &-title {
+    font: typo.$fontH1Desktop;
+  }
+  }
 }

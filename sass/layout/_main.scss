@@ -68,6 +68,12 @@
     &__information {
       text-align: left;
     }
+    &__title{
+      font: typo.$fontH2Desktop;
+    }
+    &__description{
+      font: typo.$fontParagraphDesktop;
+    }
     &__list {
       grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
       min-height: 150px;
@@ -80,6 +86,7 @@
     }
     &__header-search {
       display: block;
+      width: 450px;
     }
   }
 }
