@@ -130,7 +130,7 @@ svg {
   }
 }
 .dashboard {
-  color: #3c3c3c;
+  color: #1B0E2F;
 }
 .dashboard__sidebar {
   border-right: 1px solid #e6e6e6;
@@ -139,7 +139,7 @@ svg {
   color: #000000;
 }
 .dashboard__main {
-  background-color: #f5f7fa;
+  background-color: #F8F7FA;
 }
 
 .card {
@@ -158,7 +158,7 @@ svg {
 }
 
 .dashboard {
-  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Arimo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -177,7 +177,7 @@ svg {
   background-color: #ffffff;
 }
 .dashboard__header-title {
-  font: 600 28px/normal "Inter", sans-serif;
+  font: 600 28px/normal "Arimo", sans-serif;
 }
 .dashboard__header-search {
   width: 260px;
@@ -281,8 +281,11 @@ svg {
   display: none;
 }
 .cards-powerbi__title {
-  font: 600 22px/normal "Inter", sans-serif;
+  font: 700 18px/normal "Arimo", sans-serif;
   align-items: center;
+}
+.cards-powerbi__description {
+  font: 400 12px/normal "Arimo", sans-serif;
 }
 .cards-powerbi__list {
   display: grid;
@@ -343,7 +346,7 @@ svg {
 .card__title {
   padding: 0 10px;
   height: 40px;
-  font: 500 12px/normal "Inter", sans-serif;
+  font: 500 12px/normal "Arimo", sans-serif;
 }
 .card__tags {
   display: flex;
@@ -354,7 +357,7 @@ svg {
 .card__tags .card__tag {
   padding: 6px;
   border-radius: 4px;
-  font: 300 10px/normal "Inter", sans-serif;
+  font: 300 10px/normal "Arimo", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -376,10 +379,10 @@ svg {
   .card__title {
     padding: 0 10px;
     height: 60px;
-    font: 500 14px/normal "Inter", sans-serif;
+    font: 500 14px/normal "Arimo", sans-serif;
   }
   .card__tags .card__tag {
-    font: 300 12px/normal "Inter", sans-serif;
+    font: 300 12px/normal "Arimo", sans-serif;
   }
 }
 .modal {
@@ -483,7 +486,7 @@ svg {
 }
 .header__input {
   padding: 6px 12px;
-  border: 1px solid #3c3c3c;
+  border: 1px solid #1B0E2F;
   border-radius: 50px;
   width: 100%;
 }
@@ -494,7 +497,7 @@ svg {
 .btn--primary {
   border: 1px solid #da291c;
   color: #da291c;
-  font: 600 14px/normal "Inter", sans-serif;
+  font: 600 14px/normal "Arimo", sans-serif;
   width: 250px;
   border-radius: 50px;
   padding: 10px 24px;
@@ -507,7 +510,7 @@ svg {
 }
 .btn--link {
   color: #0097a9;
-  font: 300 14px/normal "Inter", sans-serif;
+  font: 300 14px/normal "Arimo", sans-serif;
 }
 .btn--link:hover {
   text-decoration: underline;

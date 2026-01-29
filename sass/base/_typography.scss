@@ -1,5 +1,5 @@
 $ff-base:
-  "Inter",
+  "Arimo",
   system-ui,
   -apple-system,
   BlinkMacSystemFont,
@@ -7,45 +7,55 @@ $ff-base:
   sans-serif;
 
 // _typography.scss
-$font-base: "Inter", sans-serif;
+$font-base: "Arimo", sans-serif;
 
 // Tipografía global
+$fontH1Mobile:
+  700 22px / normal "Arimo",
+  sans-serif;
+$fontH2Mobile:
+  700 18px / normal "Arimo",
+  sans-serif;
+$fontParagraphMobile:
+  400 12px / normal "Arimo",
+  sans-serif;
+
 $fontH1:
-  600 28px / normal "Inter",
+  600 28px / normal "Arimo",
   sans-serif;
 $fontH2:
-  600 22px / normal "Inter",
+  600 22px / normal "Arimo",
   sans-serif;
 $fontH3:
-  500 12px / normal "Inter",
+  500 12px / normal "Arimo",
   sans-serif;
 
 $fontH3_sm:
-  500 14px / normal "Inter",
+  500 14px / normal "Arimo",
   sans-serif;
 
 $fontLabelTag:
-  300 10px / normal "Inter",
+  300 10px / normal "Arimo",
   sans-serif;
 
 $fontLabelTag_xs:
-  300 12px / normal "Inter",
+  300 12px / normal "Arimo",
   sans-serif;
 
 $fontAsidebarNav:
-  400 16px / normal "Inter",
+  400 16px / normal "Arimo",
   sans-serif;
 
 $fontDesciptionCard1:
-  300 16px / normal "Inter",
+  300 16px / normal "Arimo",
   sans-serif;
 
 $fontBtnPrimary:
-  600 14px / normal "Inter",
+  600 14px / normal "Arimo",
   sans-serif;
 
 $fontBtnSecondary:
-  300 14px / normal "Inter",
+  300 14px / normal "Arimo",
   sans-serif;
 
 // Escala tipográfica base

@@ -43,8 +43,11 @@
     display: none;
   }
   &__title {
-    font: typo.$fontH2;
+    font: typo.$fontH2Mobile;
     align-items: center;
+  }
+  &__description{
+    font: typo.$fontParagraphMobile;
   }
   &__list {
     display: grid;
@@ -66,6 +69,8 @@
       text-align: left;
     }
     &__list {
+      // height: 500px;
+      // overflow-y: scroll;
       grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
     }
     &__header {
