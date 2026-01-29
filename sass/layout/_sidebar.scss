@@ -14,7 +14,9 @@
   top: 0;
   transition: all 0.3s ease;
   padding: 0px 24px;
-  // max-width: 0;
+
+  // height: 100%;
+  // overflow: hidden;
 
   &-content {
     display: inherit;
@@ -67,15 +69,8 @@
       background: clr.$clr_claro;
       color: clr.$clr_light;
     }
-    // i.ph-fill {
-    //   display: none;
-    // }
     &--active {
       color: clr.$clr_light;
-
-      // &:hover {
-      //   background: none;
-      // }
     }
   }
   &-link--active {

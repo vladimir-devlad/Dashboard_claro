@@ -1,12 +1,19 @@
 @use "../base/layout" as layout;
 
+// html,
+// body {
+//   height: 100%;
+//   overflow: hidden; // 🔑 elimina scroll global
+// }
+
 .dashboard {
   display: grid;
   min-height: 100vh;
+  // height: 100vh;
   transition: all 0.3s ease;
 
   grid-template-columns: 1fr;
-  grid-template-rows: 70px auto 30px;
+  grid-template-rows: 70px 1fr 30px;
   grid-template-areas:
     "header"
     "main"
@@ -28,7 +35,7 @@ $desktop: 1200px;
 @media (min-width: $tablet) {
   .dashboard {
     grid-template-columns: 220px auto;
-    grid-template-rows: 70px auto 30px;
+    grid-template-rows: 70px 1fr 30px;
     grid-template-areas:
       "sidebar header"
       "sidebar main"
@@ -39,14 +46,3 @@ $desktop: 1200px;
     display: flex;
   }
 }
-
-// @media (max-width: 768px) {
-//   .dashboard {
-//     grid-template-columns: 1fr;
-//     grid-template-rows: 36px 1fr auto;
-//     grid-template-areas:
-//       "header"
-//       "main"
-//       "footer";
-//   }
-// }
