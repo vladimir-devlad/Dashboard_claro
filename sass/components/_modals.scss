@@ -22,7 +22,6 @@
     margin: 10% auto;
     padding: 30px;
     border-radius: 20px;
-    border: 1px solid clr.$clr_border_line_card;
     z-index: 1;
     height: fit-content;
 
@@ -64,10 +63,9 @@
   &__description {
     font-size: typo.$fs-sm;
     font-weight: 300;
-    height: 140px;
-    overflow: hidden;
+    height: 150px;
+    overflow-y: scroll;
     text-overflow: ellipsis;
-    // max-height: 200px;
   }
   &__buttons {
     display: inherit;

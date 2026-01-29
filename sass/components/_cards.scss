@@ -29,7 +29,7 @@
   &__title {
     padding: 0 10px;
     height: 40px;
-    font: typo.$fontH3;
+    font: typo.$fontH3Mobile;
   }
 
   &__tags {
@@ -40,7 +40,7 @@
     .card__tag {
       padding: 6px;
       border-radius: 4px;
-      font: typo.$fontLabelTag;
+      font: typo.$fontParagraphMobile;
     }
   }
 }

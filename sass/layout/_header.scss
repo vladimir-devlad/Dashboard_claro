@@ -5,7 +5,6 @@
   grid-area: header;
   position: sticky;
   top: 0;
-  // left: 260px; // ancho del sidebar
   right: 0;
   z-index: 200;
 
@@ -15,8 +14,14 @@
   padding: 26px 40px;
   border-bottom: 1px solid clr.$clr_border_line;
   background-color: clr.$clr_light;
+  &-img {
+    width: 60px;
+  }
+  &-logo-img {
+    width: 90px;
+  }
   &-title {
-    font: typo.$fontH1;
+    font: typo.$fontH1Desktop;
   }
   &-search {
     width: 260px;

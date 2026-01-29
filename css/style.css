@@ -129,14 +129,16 @@ svg {
     display: flex;
   }
 }
-.dashboard {
+h1, h2, h3 {
   color: #1B0E2F;
 }
+
+p {
+  color: #7A767F;
+}
+
 .dashboard__sidebar {
   border-right: 1px solid #e6e6e6;
-}
-.dashboard__header {
-  color: #000000;
 }
 .dashboard__main {
   background-color: #F8F7FA;
@@ -145,9 +147,6 @@ svg {
 .card {
   background: #ffffff;
   border: 1px solid #dfeaf2;
-}
-.card__title {
-  color: #000000;
 }
 .card__tags {
   background: #ffffff;
@@ -158,7 +157,7 @@ svg {
 }
 
 .dashboard {
-  font-family: "Arimo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -176,8 +175,14 @@ svg {
   border-bottom: 1px solid #e6e6e6;
   background-color: #ffffff;
 }
+.dashboard__header-img {
+  width: 60px;
+}
+.dashboard__header-logo-img {
+  width: 90px;
+}
 .dashboard__header-title {
-  font: 600 28px/normal "Arimo", sans-serif;
+  font: 700 26px/normal "Arimo", sans-serif;
 }
 .dashboard__header-search {
   width: 260px;
@@ -281,11 +286,11 @@ svg {
   display: none;
 }
 .cards-powerbi__title {
-  font: 700 18px/normal "Arimo", sans-serif;
+  font: 700 16px/normal "Arimo", sans-serif;
   align-items: center;
 }
 .cards-powerbi__description {
-  font: 400 12px/normal "Arimo", sans-serif;
+  font: 400 13px/normal "Arimo", sans-serif;
 }
 .cards-powerbi__list {
   display: grid;
@@ -302,6 +307,8 @@ svg {
   }
   .cards-powerbi__list {
     grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+    min-height: 150px;
+    overflow-y: scroll;
   }
   .cards-powerbi__header {
     display: flex;
@@ -346,7 +353,7 @@ svg {
 .card__title {
   padding: 0 10px;
   height: 40px;
-  font: 500 12px/normal "Arimo", sans-serif;
+  font: 500 14px/normal "Arimo", sans-serif;
 }
 .card__tags {
   display: flex;
@@ -357,7 +364,7 @@ svg {
 .card__tags .card__tag {
   padding: 6px;
   border-radius: 4px;
-  font: 300 10px/normal "Arimo", sans-serif;
+  font: 400 13px/normal "Arimo", sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -406,7 +413,6 @@ svg {
   margin: 10% auto;
   padding: 30px;
   border-radius: 20px;
-  border: 1px solid #dfeaf2;
   z-index: 1;
   height: fit-content;
   display: flex;
@@ -446,8 +452,8 @@ svg {
 .modal__description {
   font-size: 14px;
   font-weight: 300;
-  height: 140px;
-  overflow: hidden;
+  height: 150px;
+  overflow-y: scroll;
   text-overflow: ellipsis;
 }
 .modal__buttons {

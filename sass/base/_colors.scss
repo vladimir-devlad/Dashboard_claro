@@ -1,9 +1,11 @@
-// official
-// $clr_bg: #f5f6f7; // Fondo principal
-$clr_primary: #000000;
-$clr_secondary: #1B0E2F;
+$clr_title: #1B0E2F;
+$clr_paragraph: #7A767F;
+
 $clr_claro: #da291c;
 $clr_light: #ffffff;
+
+$clr_primary: #000000;
+$clr_secondary: #1B0E2F;
 
 $clr_bg: #F8F7FA;
 $clr_border_line: #e6e6e6;
@@ -16,13 +18,16 @@ $clr_tag_card: #0097a9;
 
 $footer_bg: white;
 
+h1,h2,h3{
+  color: $clr_title;
+}
+p{
+  color: $clr_paragraph;
+}
+
 .dashboard {
-  color: $clr_secondary;
   &__sidebar {
     border-right: 1px solid $clr_border_line;
-  }
-  &__header {
-    color: $clr_primary;
   }
   &__main {
     background-color: $clr_bg;
@@ -32,9 +37,6 @@ $footer_bg: white;
 .card {
   background: $clr_light;
   border: 1px solid $clr_border_line_card;
-  &__title {
-    color: $clr_primary;
-  }
   &__tags {
     background: $clr_light;
     .card__tag {
