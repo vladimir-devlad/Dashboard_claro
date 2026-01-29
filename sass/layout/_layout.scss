@@ -2,21 +2,49 @@
 
 .dashboard {
   display: grid;
-  grid-template-columns: 210px 1fr;
-  grid-template-rows: 90px 1fr auto;
-  grid-template-areas:
-    "sidebar header"
-    "sidebar main"
-    "sidebar footer";
   min-height: 100vh;
-  // overflow: hidden;
   transition: all 0.3s ease;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px auto 30px;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
+
+// Sidebar oculto en mobile
+.dashboard__sidebar {
+  display: none;
+}
+
+// Breakpoints
+$mobile: 576px;
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1200px;
+
+// TABLET +
+@media (min-width: $tablet) {
+  .dashboard {
+    grid-template-columns: 220px auto;
+    grid-template-rows: 70px auto 30px;
+    grid-template-areas:
+      "sidebar header"
+      "sidebar main"
+      "sidebar footer";
+  }
+
+  .dashboard__sidebar {
+    display: block;
+  }
+}
+
 
 // @media (max-width: 768px) {
 //   .dashboard {
 //     grid-template-columns: 1fr;
-//     grid-template-rows: auto 1fr auto;
+//     grid-template-rows: 36px 1fr auto;
 //     grid-template-areas:
 //       "header"
 //       "main"

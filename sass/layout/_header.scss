@@ -8,6 +8,7 @@
   // left: 260px; // ancho del sidebar
   right: 0;
   z-index: 200;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,4 +18,14 @@
   &-title {
     font: typo.$fontH1;
   }
+  &-search {
+    width: 260px;
+    text-align: center;
+  }
+  // &-avatar{
+  //   background-color: black;
+  //   width: 45px;
+  //   height: 45px;
+  //   border-radius: 50%;
+  // }
 }

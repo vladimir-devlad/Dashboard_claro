@@ -1,6 +1,3 @@
-// =============================
-// Font families
-// =============================
 $ff-base:
   "Inter",
   system-ui,
@@ -8,6 +5,9 @@ $ff-base:
   BlinkMacSystemFont,
   "Segoe UI",
   sans-serif;
+
+// _typography.scss
+$font-base: "Inter", sans-serif;
 
 // Tipografía global
 $fontH1:
@@ -17,11 +17,19 @@ $fontH2:
   600 22px / normal "Inter",
   sans-serif;
 $fontH3:
+  500 12px / normal "Inter",
+  sans-serif;
+
+$fontH3_sm:
   500 14px / normal "Inter",
   sans-serif;
 
 $fontLabelTag:
-  300 11px / normal "Inter",
+  300 10px / normal "Inter",
+  sans-serif;
+
+$fontLabelTag_xs:
+  300 12px / normal "Inter",
   sans-serif;
 
 $fontAsidebarNav:
@@ -29,18 +37,16 @@ $fontAsidebarNav:
   sans-serif;
 
 $fontDesciptionCard1:
-  300 16px / normal "Manrope",
-  sans-serif;
-$fontDesciptionCard2:
-  300 14px / 20px "Manrope",
+  300 16px / normal "Inter",
   sans-serif;
 
-$fontBtn:
-  400 18px / normal "Inter",
+$fontBtnPrimary:
+  600 14px / normal "Inter",
   sans-serif;
 
-// _typography.scss
-$font-base: "Inter", sans-serif;
+$fontBtnSecondary:
+  300 14px / normal "Inter",
+  sans-serif;
 
 // Escala tipográfica base
 $fs-xxl: 48px; // H1 principal (hero)

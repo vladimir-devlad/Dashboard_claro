@@ -4,49 +4,68 @@
 
 .dashboard__main {
   grid-area: main;
-  padding: 24px 40px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  overflow: hidden;
-  width: 100%;
-  &-content {
-    flex: 1;
-    display: flex;
-    overflow: hidden;
-    min-height: 0;
-    // background-color: greenyellow;
-  }
+  padding: 16px;
+  // background-color: red;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+  //   z-index: 100;
+  // &-content {
+  //   max-width: 1172px;
+    // width: 100%;
+  //   margin-inline: auto;
+  // }
 }
 .cards-powerbi {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  gap: 16px;
-  min-height: 0;
-  &__information {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  }
+  // height: 100%;
+  gap: 20px;
   &__information {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     gap: 8px;
-    flex-shrink: 0;
+    text-align: center;
+  }
+  &__header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  &__header-search{
+    display: none;
   }
   &__title {
     font: typo.$fontH2;
+    align-items: center;
   }
-  &__list {
-    overflow-y: auto;
-    min-height: 0;
+  &__list{
     display: grid;
-    // width: 100%;
-    grid-template-columns: repeat(auto-fit, minmax(214px, 1fr));
-    gap: 10px;
-    max-width: none;
-    padding-bottom: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .dashboard__main{
+    padding: 40px 24px;
+  }
+  .cards-powerbi{
+    &__information{
+      text-align: left;
+    }
+    &__list {
+      grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+    }
+    &__header{
+    display: flex;
+    justify-content: space-between;
+  }
+    &__header-search{
+    display: block;
+    
+  }
   }
 }

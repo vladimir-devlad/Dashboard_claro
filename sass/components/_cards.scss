@@ -5,34 +5,38 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  gap: 10px;
+  padding: 8px;
+  gap: 8px;
   overflow: hidden;
-  border-radius: 12px;
-  width: 214px;
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
   cursor: pointer;
 
   &__image {
     width: 100%;
-    height: 120px;
+    height: 110px;
     border-radius: 4px;
     object-fit: cover;
   }
 
-  // Card Content
   &__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px;
+    gap: 12px;
   }
   &__title {
-    height: 60px;
+    padding: 0 10px;
+    height: 40px;
     font: typo.$fontH3;
   }
 
-  // Tags
   &__tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
     .card__tag {
       padding: 6px;
       border-radius: 4px;
@@ -40,60 +44,34 @@
     }
   }
 }
-// .card {
-//   display: flex;
-//   flex-direction: column;
-//   height: 100%;
-//   min-height: 260px;
-//   border-radius: 12px;
-//   background-color: white;
-//   overflow: hidden;
-//   border: 1px solid green;
 
-//   &__media {
-//     position: relative;
-//     width: 100%;
-//     height: 180px;
-//     overflow: hidden;
-//   }
-//   &_image {
-//     width: 100%;
-//     height: 100%;
-//     object-fit: cover; // se adapta al width
-//     object-position: center;
-//     display: block;
-//   }
-//   &_content {
-//     display: inherit;
-//     flex-direction: column;
-//     justify-content: center;
-//     gap: 24px;
-//   }
-//   &__summary {
-//     // border: 1px solid green;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     gap: 20px;
-//   }
-//   &__header {
-//     display: inherit;
-//     justify-content: space-between;
-//     .card__title {
-//       // color: red;
-//       // font-size: 20px;
-//       // font-weight: 600;
-//       color: clr.$clr_text;
-//       //   @include mixi.text-style(18, 20, 1.5, 600);
-//     }
-//   }
-//   &__tags {
-//     .card__tag {
-//       background: rgba(clr.$clr_tag, 0.1);
-//       padding: 6px;
-//       border-radius: 4px;
-//       font: typo.$fontLabelStackTech;
-//       color: clr.$clr_tag;
-//     }
-//   }
-// }
+@media (min-width: 768px) {
+  .card {
+    padding: 14px;
+    gap: 8px;
+    border-radius: 12px;
+
+    &__image {
+      height: 120px;
+      border-radius: 6px;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    &__title {
+      padding: 0 10px;
+      height: 60px;
+      font: typo.$fontH3_sm;
+    }
+
+      &__tags {
+      .card__tag {
+        font: typo.$fontLabelTag_xs;
+      }
+    }
+  }
+}

@@ -2,16 +2,15 @@
 @use "../base/typography" as typo;
 @use "../base/mixins" as mixi;
 
-.modal {
+.modal{
   position: fixed;
   inset: 0;
-  display: none;
-  place-items: center;
+  // display: none;
   z-index: 1000;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 20px;
-
+  &--active{
+    display: flex;
+    height: auto;
+  }
   &__overlay {
     position: absolute;
     inset: 0;
@@ -20,31 +19,145 @@
   &__content {
     position: relative;
     background: clr.$clr_light;
-    max-width: 500px;
-    min-height: 250px;
-    margin: 20% auto;
-    padding: 20px;
-    border-radius: 8px;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    border: 1px solid clr.$clr_border_line_card;
     z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+  }
+  &__image{
+    display: none;
+  }
+  &__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3 ease all;
+    color: clr.$clr_tag_card;
+
+    &:hover {
+      // background-color: rgb(239, 215, 215);
+      stroke: red;
+      // color: clr.$clr_light;
+    }
+  }
+  &__information {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
   }
   &__title {
-    margin-bottom: 10px;
+    font-size: typo.$fs-md;
+    font-weight: 600;
+    min-width: 250px;
+    margin-top: 20px;
+  }
+  &__description {
+    font-size: typo.$fs-sm;
+    font-weight: 300;
+    // max-height: 200px;
+  }
+  
+}
+
+@media (min-width: 768px) {
+.modal {
+  
+
+  
+  &__content {
+    position: relative;
+    background: clr.$clr_light;
+    max-width: 450px;
+    // max-height: 432px;
+    margin: 10% auto;
+    padding: 40px 24px;
+    border-radius: 8px;
+    border: 1px solid clr.$clr_border_line_card;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  &__image{
+    max-width: 80px;
+    display: block;
+  }
+  &__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3 ease all;
+    color: clr.$clr_tag_card;
+
+    &:hover {
+      // background-color: rgb(239, 215, 215);
+      stroke: red;
+      // color: clr.$clr_light;
+    }
+  }
+  &__information {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  &__title {
+    font-size: typo.$fs-md;
+    font-weight: 600;
+    min-width: 250px;
+  }
+  &__description {
+    font-size: typo.$fs-sm;
+    font-weight: 300;
+    max-height: 200px;
+  }
+  &__buttons{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
   }
 }
 
 .modal.active {
   display: block;
 }
-
-.modal__description {
-  margin-bottom: 20px;
 }
+// .modal__description {
+//   margin-bottom: 20px;
+// }
 
-.modal__button {
-  padding: 10px 16px;
-  background: #0078d4;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+// .modal__button {
+//   padding: 10px 16px;
+//   background: #0078d4;
+//   color: #fff;
+//   border: none;
+//   border-radius: 4px;
+//   cursor: pointer;
+// }

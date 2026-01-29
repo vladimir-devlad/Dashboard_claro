@@ -1,0 +1,12 @@
+@use "../base/colors" as clr;
+
+.dashboard__footer {
+  grid-area: footer;
+  background: clr.$footer_bg;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}

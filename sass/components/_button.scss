@@ -1,0 +1,35 @@
+@use "../base/colors" as clr;
+@use "../base/typography" as typo;
+@use "../base/mixins" as mixi;
+
+.header__input {
+  padding: 6px 12px;
+  border: 1px solid clr.$clr_secondary;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  &--primary {
+    border: 1px solid clr.$clr_claro;
+    color: clr.$clr_claro;
+    font: typo.$fontBtnPrimary;
+    width: 250px;
+    border-radius: 50px;
+    padding: 10px 24px;
+    transition: 0.3 ease all;
+    &:hover {
+      background-color: clr.$clr_claro;
+      border: 1px solid clr.$clr_claro;
+      color: clr.$clr_light;
+    }
+  }
+  &--link{
+    color: clr.$clr_tag_card;
+    font: typo.$fontBtnSecondary;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

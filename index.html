@@ -3,22 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
-    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./css/style.css" />
     <script type="text/javascript" src="js/app.js" defer></script>
     <title>CLARO | Hub Power BI</title>
@@ -27,20 +19,11 @@
     <!-- Header -->
     <header class="dashboard__header">
       <h1 class="dashboard__header-title">Hub Power Bi</h1>
-
-      <div class="dashboard__header-search">
-        <input
-          id="searchInput"
-          type="search"
-          placeholder="Buscar en todas las categorias"
-          class="header__input"
-        />
-      </div>
+      <div class="dashboard__header-avatar"></div>
     </header>
     <!-- Sidebar -->
     <aside class="dashboard__sidebar" id="dashboardSidebar">
       <div class="dashboard__sidebar-content">
-        <!-- Logo -->
         <div class="dashboard__sidebar-logo">
           <img
             src="assets/images/logos/logo_claro.png"
@@ -57,16 +40,14 @@
                 href="#"
                 class="dashboard__sidebar-link dashboard__sidebar-link--active"
               >
-                <i class="ph ph-home icon icon--sm"></i>
-                <i class="ph-fill ph-compass icon icon--sm"></i>
+                <span class="dashboard__sidebar-icon"></span>
+                <!-- <span><img src="./assets/icons/icon-dash.svg" alt=""></span> -->
                 <span class="dashboard__sidebar-label">Categoria 1</span>
               </a>
             </li>
             <li class="dashboard__sidebar-item">
               <a href="#" class="dashboard__sidebar-link">
-                <i class="ph ph-user icon icon--sm"></i>
-                <i class="ph-fill ph-user icon icon--sm"></i>
-
+                <span class="dashboard__sidebar-icon"></span>
                 <span class="dashboard__sidebar-label">Categoria 2</span>
               </a>
             </li>
@@ -79,14 +60,24 @@
       <div class="dashboard__main-content">
         <section class="cards-powerbi">
           <div class="cards-powerbi__information">
-            <h2 class="cards-powerbi__title">Categoria 1</h2>
+            <div class="cards-powerbi__header">
+              <h2 class="cards-powerbi__title">Nombre de Categoria</h2>
+              <div class="cards-powerbi__header-search">
+                <input
+                id="searchInput"
+                type="search"
+                placeholder="Buscar en todas las categorias"
+                class="header__input"
+                />
+              </div>
+            </div>
             <p class="cards-powerbi__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
           </div>
 
-          <div class="cards-powerbi__list">
+          <div class="cards-powerbi__list" id="cardsContainer">
             <!-- Cards -->
             <article class="card">
               <figure class="card__media">
@@ -99,266 +90,14 @@
 
               <div class="card__content">
                 <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi Title
+                  <h3 class="card__title" id="cardTitle">
+                    Interacciones de Clientes Únicos
                   </h3>
                 </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi Title
-                  </h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi Titlebi Titlebi
-                    Titlebi Title ssss
-                  </h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi Title
-                  </h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi Title Title del power
-                    bi
-                  </h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">
-                    Title del power bi Title del power bi
-                  </h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
-                </div>
-              </div>
-            </article>
-            <article class="card">
-              <figure class="card__media">
-                <img
-                  src="assets/images/cards/1.png"
-                  alt="Card Image"
-                  class="card__image"
-                />
-              </figure>
-
-              <div class="card__content">
-                <div class="card__header">
-                  <h3 class="card__title">Title del power bi</h3>
-                </div>
-
-                <div class="card__tags">
-                  <span class="card__tag">Key 1</span>
-                  <span class="card__tag">Key 2</span>
+                <div class="card__tags" id="cardTags">
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
                 </div>
               </div>
             </article>
@@ -368,22 +107,42 @@
     </main>
 
     <!-- Footer -->
-    <footer class="dashboard__footer"></footer>
+    <footer class="dashboard__footer">Footer</footer>
 
-    <!-- Modal -->
-    <div class="modal" id="cardModal" aria-hidden="true">
+    <!-- Modal Card -->
+    <div class="modal" id="cardModal">
       <div class="modal__overlay"></div>
 
       <div class="modal__content">
-        <button class="modal__close" aria-label="Cerrar">&times;</button>
+        <div class="modal__image">
+          <img src="./assets/icons/Report V2.gif" alt="" />
+        </div>
 
-        <h3 class="modal__title"></h3>
-        <p class="modal__description"></p>
+        <span class="modal__close" id="closeModal">
+          <img src="./assets/icons/icon-close.svg" alt="&times;" />
+        </span>
 
-        <a href="#" target="_blank" class="modal__button"> Ir al reporte </a>
+        <div class="modal__information">
+          <h3 class="modal__title" id="modalTitle">Nombre del dashboard</h3>
+          <p class="modal__description" id="modalDescription">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+
+        <div class="modal__buttons">
+          <a href="#" class="btn btn--primary" target="_blank"
+            >Acceder al dashboard</a
+          >
+          <a href="#" class="btn btn--link">Ver detalle</a>
+        </div>
       </div>
     </div>
-
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/cards.js"></script>
   </body>
 </html>

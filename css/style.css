@@ -319,16 +319,17 @@ svg {
 .card {
   display: flex;
   flex-direction: column;
-  padding: 12px;
-  gap: 10px;
+  padding: 8px;
+  gap: 8px;
   overflow: hidden;
-  border-radius: 12px;
-  width: 214px;
+  border-radius: 10px;
+  width: auto;
+  text-align: center;
   cursor: pointer;
 }
 .card__image {
   width: 100%;
-  height: 120px;
+  height: 110px;
   border-radius: 4px;
   object-fit: cover;
 }
@@ -336,27 +337,53 @@ svg {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 10px;
+  gap: 12px;
 }
 .card__title {
-  height: 60px;
-  font: 500 14px/normal "Inter", sans-serif;
+  padding: 0 10px;
+  height: 40px;
+  font: 500 12px/normal "Inter", sans-serif;
 }
 .card__tags {
   display: flex;
   flex-direction: row;
-  gap: 6px;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .card__tags .card__tag {
   padding: 6px;
   border-radius: 4px;
-  font: 300 11px/normal "Inter", sans-serif;
+  font: 300 10px/normal "Inter", sans-serif;
 }
 
+@media (min-width: 768px) {
+  .card {
+    padding: 14px;
+    gap: 8px;
+    border-radius: 12px;
+  }
+  .card__image {
+    height: 120px;
+    border-radius: 6px;
+  }
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .card__title {
+    padding: 0 10px;
+    height: 60px;
+    font: 500 14px/normal "Inter", sans-serif;
+  }
+  .card__tags .card__tag {
+    font: 300 12px/normal "Inter", sans-serif;
+  }
+}
 .modal {
   position: fixed;
   inset: 0;
-  display: none;
   z-index: 1000;
 }
 .modal--active {
@@ -371,10 +398,10 @@ svg {
 .modal__content {
   position: relative;
   background: #ffffff;
-  max-width: 450px;
+  max-width: 300px;
   margin: 10% auto;
-  padding: 40px 24px;
-  border-radius: 8px;
+  padding: 40px 30px;
+  border-radius: 20px;
   border: 1px solid #dfeaf2;
   z-index: 1;
   display: flex;
@@ -382,10 +409,10 @@ svg {
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  gap: 35px;
+  gap: 20px;
 }
 .modal__image {
-  max-width: 80px;
+  display: none;
 }
 .modal__close {
   position: absolute;
@@ -413,23 +440,76 @@ svg {
   font-size: 18px;
   font-weight: 600;
   min-width: 250px;
+  margin-top: 20px;
 }
 .modal__description {
   font-size: 14px;
   font-weight: 300;
-  max-height: 200px;
-}
-.modal__buttons {
-  display: inherit;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
 }
 
-.modal.active {
-  display: block;
+@media (min-width: 768px) {
+  .modal__content {
+    position: relative;
+    background: #ffffff;
+    max-width: 450px;
+    margin: 10% auto;
+    padding: 40px 24px;
+    border-radius: 8px;
+    border: 1px solid #dfeaf2;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 35px;
+  }
+  .modal__image {
+    max-width: 80px;
+    display: block;
+  }
+  .modal__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3 ease all;
+    color: #0097a9;
+  }
+  .modal__close:hover {
+    stroke: red;
+  }
+  .modal__information {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .modal__title {
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 250px;
+  }
+  .modal__description {
+    font-size: 14px;
+    font-weight: 300;
+    max-height: 200px;
+  }
+  .modal__buttons {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .modal.active {
+    display: block;
+  }
 }
-
 .header__input {
   padding: 6px 12px;
   border: 1px solid #3c3c3c;
