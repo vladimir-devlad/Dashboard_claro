@@ -126,7 +126,7 @@ svg {
     grid-template-areas: "sidebar header" "sidebar main" "sidebar footer";
   }
   .dashboard__sidebar {
-    display: block;
+    display: flex;
   }
 }
 .dashboard {
@@ -186,7 +186,6 @@ svg {
 
 .dashboard__sidebar {
   grid-area: sidebar;
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 200;
@@ -196,7 +195,6 @@ svg {
   top: 0;
   transition: all 0.3s ease;
   padding: 0px 24px;
-  max-width: 0;
 }
 .dashboard__sidebar-content {
   display: inherit;
@@ -226,8 +224,8 @@ svg {
   width: 24px;
   height: 24px;
   background-color: currentColor;
-  -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
   mask: url("/assets/icons/icon-dash.svg") no-repeat center;
+  -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
   mask-size: contain;
   -webkit-mask-size: contain;
   color: #000000;
@@ -291,7 +289,7 @@ svg {
 
 @media (min-width: 768px) {
   .dashboard__main {
-    padding: 40px 24px;
+    padding: 34px 24px;
   }
   .cards-powerbi__information {
     text-align: left;
@@ -389,7 +387,6 @@ svg {
 }
 .modal--active {
   display: flex;
-  height: auto;
 }
 .modal__overlay {
   position: absolute;
@@ -401,34 +398,31 @@ svg {
   background: #ffffff;
   max-width: 300px;
   margin: 10% auto;
-  padding: 40px 30px;
+  padding: 30px;
   border-radius: 20px;
   border: 1px solid #dfeaf2;
   z-index: 1;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
-  gap: 20px;
+  gap: 45px;
 }
 .modal__image {
   display: none;
 }
 .modal__close {
   position: absolute;
-  top: 25px;
-  right: 25px;
-  border-radius: 50%;
-  border: none;
-  background: none;
-  font-size: 22px;
-  font-weight: 600;
+  top: 15px;
+  right: 15px;
   cursor: pointer;
   transition: 0.3 ease all;
   color: #0097a9;
 }
 .modal__close:hover {
+  border-radius: 50%;
+  background-color: rgb(239, 215, 215);
   stroke: red;
 }
 .modal__information {
@@ -446,8 +440,44 @@ svg {
 .modal__description {
   font-size: 14px;
   font-weight: 300;
+  height: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.modal__buttons {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
+@media (min-width: 768px) {
+  .modal__content {
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 30px;
+    gap: 10px;
+  }
+  .modal__image {
+    display: block;
+    max-width: 80px;
+  }
+  .modal__close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  .modal__description {
+    font-size: 14px;
+    font-weight: 300;
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .modal__buttons {
+    margin-top: 24px;
+  }
+}
 .header__input {
   padding: 6px 12px;
   border: 1px solid #3c3c3c;

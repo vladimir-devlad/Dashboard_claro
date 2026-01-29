@@ -36,10 +36,9 @@ $desktop: 1200px;
   }
 
   .dashboard__sidebar {
-    display: block;
+    display: flex;
   }
 }
-
 
 // @media (max-width: 768px) {
 //   .dashboard {

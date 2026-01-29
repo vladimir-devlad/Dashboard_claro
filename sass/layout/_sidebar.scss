@@ -4,7 +4,7 @@
 
 .dashboard__sidebar {
   grid-area: sidebar;
-  display: flex;
+  // display: flex;
   flex-direction: column;
   justify-content: space-between;
   z-index: 200;
@@ -14,7 +14,7 @@
   top: 0;
   transition: all 0.3s ease;
   padding: 0px 24px;
-  max-width: 0;
+  // max-width: 0;
 
   &-content {
     display: inherit;
@@ -47,8 +47,8 @@
     width: 24px;
     height: 24px;
     background-color: currentColor;
-    -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
     mask: url("/assets/icons/icon-dash.svg") no-repeat center;
+    -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
     mask-size: contain;
     -webkit-mask-size: contain;
     color: clr.$clr_primary;

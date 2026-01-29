@@ -9,6 +9,7 @@ const overlay = document.querySelector(".modal__overlay");
 fetch("json/data.json")
   .then((response) => response.json())
   .then((data) => {
+    container.innerHTML = "";
     data.forEach((item) => createCard(item));
   })
   .catch((error) => console.error("Error cargando JSON:", error));
