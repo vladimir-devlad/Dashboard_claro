@@ -384,6 +384,7 @@ svg {
 .modal {
   position: fixed;
   inset: 0;
+  display: none;
   z-index: 1000;
 }
 .modal--active {
@@ -447,69 +448,6 @@ svg {
   font-weight: 300;
 }
 
-@media (min-width: 768px) {
-  .modal__content {
-    position: relative;
-    background: #ffffff;
-    max-width: 450px;
-    margin: 10% auto;
-    padding: 40px 24px;
-    border-radius: 8px;
-    border: 1px solid #dfeaf2;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    gap: 35px;
-  }
-  .modal__image {
-    max-width: 80px;
-    display: block;
-  }
-  .modal__close {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    border-radius: 50%;
-    border: none;
-    background: none;
-    font-size: 22px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3 ease all;
-    color: #0097a9;
-  }
-  .modal__close:hover {
-    stroke: red;
-  }
-  .modal__information {
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
-  .modal__title {
-    font-size: 18px;
-    font-weight: 600;
-    min-width: 250px;
-  }
-  .modal__description {
-    font-size: 14px;
-    font-weight: 300;
-    max-height: 200px;
-  }
-  .modal__buttons {
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-  }
-  .modal.active {
-    display: block;
-  }
-}
 .header__input {
   padding: 6px 12px;
   border: 1px solid #3c3c3c;
