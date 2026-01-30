@@ -1,40 +1,249 @@
 [
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Interacciones de Altas y Bajas","description":"Dashboassrd donde se muestran los motivos de llamadas de los clientes de Alta y Baja, adicionando indicadores de gestión como son su TNPS, NPS, TMG.","creator":"Alan Medina","keywords":"SOT, Mantenimiento, Tipificación","Carga":"Diario - 2:00 pm","Fecha de Publicación":"02/16/2023","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"Sin URL por cambios de tecnología de tableros","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Interacciones de Clientes Únicos","description":"Dashboard que nos permite conocer la cantidad de interacciones por clientes únicos en todas sus segmentaciones, adicionando el parque de clientes y llamadas de campaña asociada","creator":"Alan Medina","keywords":"Cliente, Tipificación","Carga":"Diario - 12:15 pm","Fecha de Publicación":"02/21/2024","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"Sin URL por cambios de tecnología de tableros","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Notas Crédito Observadas","description":"El reporte muestra el detalle de las notas de créditos observadas por escenario desde hace 1 año hasta el día de hoy.","creator":"Alan Medina","keywords":"Nota, Nota De Crédito","Carga":"En Línea","Fecha de Publicación":"12/30/2022","Desarrollador":"Gabriel Alberto Mayuri Cordero","url-dashboard":"https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/f5333ad6-de0c-4a7f-82cc-567a049c2335?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Notas de Crédito","description":"El reporte muestra las Notas de Créditos generadas de la operación, para que con la revisión y analisis diario puedan ir tomando acciones para la reducción de ajustes. Los indicadores son: ratio de notas de crédito vs Llamadas atendidas, cantidad de notas de crédito por Día, niveles de aprobación, Ranking de notas de crédito por asesor, evolución mensual, evolución diaria, ranking de motivos y sub motivos de imputación. Variables: Q de notas de créditos, montos por NC, Campañas, Interacciones.","creator":"Alan Medina","keywords":"Nota De Crédito","Carga":"Diaria 3 PM","Fecha de Publicación":"12/30/2022","Desarrollador":"Gabriel Alberto Mayuri Cordero","url-dashboard":"https://app.powerbi.com/groups/me/reports/b91f88c2-0856-47b7-8bd3-548f8506ae2f/ReportSection4c6fbe76e690bc0e48a2?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"OCC's","description":"El reporte muestra todas las Occ ingresadas por mes con la fecha de aplicación a futuro, la participación por Dirección, Área y Operación. El reporte contiene la cantidad y el total por mes. Total por servicio y concepto de Occ.","creator":"Alan Medina","keywords":"Nota, OCC","Carga":"Diaria 12:30 PM","Fecha de Publicación":"12/30/2022","Desarrollador":"Gabriel Alberto Mayuri Cordero","url-dashboard":"https://app.powerbi.com/groups/me/reports/2493a006-fac0-410c-b427-b0000eb3e8dd/ReportSection?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Planificación - Canal Telefónico","description":"Muestra la planificación de llamadas de Call Center de las diferentes campañas del canal telefónico.","creator":"Alan Medina","keywords":"Franja, Socio Comercial","Carga":"Diario - 12:00 pm, 1:00 pm y 3:00 pm","Fecha de Publicación":"02/27/2023","Desarrollador":"Christian Andre Galindo Rios","url-dashboard":"Sin URL por cambios de tecnología de tableros","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Recargas Manuales Prepago y Postpago","description":"El reporte de Recargas muestra todas las recargas prepago y postpago que se han ejecutado manualmente que han brindado soles como fidelización para pruebas operativas de la líneas prepago, en el caso de postpago hace referencia a las recargas generadas para los clientes corporativos y para los débitos generados de los pavgos errados.","creator":"Alan Medina","keywords":"Recarga","Carga":"Diaria 12:00 PM","Fecha de Publicación":"12/30/2022","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"https://app.powerbi.com/groups/me/reports/be265b04-24df-4652-97b6-128ccfa69d9e/ReportSection?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Reclamos y SAR","description":"El reporte muestra los indicadores de Reclamos y Sar (Solución Anticipada al Reclamo) generadas por la Dirección de Servicio al Cliente","creator":"Alan Medina","keywords":"","Carga":"En Línea","Fecha de Publicación":"12/30/2022","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"https://app.powerbi.com/groups/me/reports/86e4face-acc0-453c-b0b2-fd1cef1da6b8/ReportSection45db02f66c80db08a2e9?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Reconexiones y Casos OAC","description":"Muestra las reconexiones del aplicativo OAC, muestra la recurrencia de reconexiones por línea y servicios fijos. Muestra la cabtidad de casos generados en SIAC que cuentan con una reconexión oac como lo indica el proceso. Además que valida la dilación de tiempo entre la generación de un caso y el tiempo que demora en ejecutar la reconexión por el oac.","creator":"Alan Medina","keywords":"","Carga":"Diaria 12 PM","Fecha de Publicación":"12/30/2022","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/35d4cfab-538f-4e2a-b82f-cfdbd9d7997f?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Reincidencia de Casos","description":"El reporte de Recurrencia de Casos informa que transacciones se están volviendo a generar al mismo cliente por la misma sub clase dentro de un mismo periodo.","creator":"Alan Medina","keywords":"","Carga":"Diaria 12:00 PM","Fecha de Publicación":"12/30/2022","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/4cfe2a60-ba2f-416f-a879-8b4049f660b5?experience=power-bi","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Resultados de Calidad","description":"Muestra el consolidado de los resultados, objetivos y cumplimiento de los principales indicadores del área de Calidad","creator":"Jose Luis Medina","keywords":"Mala Práctica","Carga":"Diario - 10:00 am y 4:00 pm","Fecha de Publicación":"02/23/2023","Desarrollador":"Rafael Junior Saenz Dextre","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Speech Analytics","description":"Muestra los resultados por campaña de las categorías creadas dentro de la plataforma Speech Analytics.","creator":"Jose Luis Medina","keywords":"Speech Analytics","Carga":"Lunes - 8:00 pm","Fecha de Publicación":"04/25/2023","Desarrollador":"Rafael Junior Saenz Dextre","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicio al Cliente - Operativo","title":"Tipificaciones Call Center","description":"El reporte muestra las tipificaciones generadas por nuestros diversos socios en las diferentes campañas de Servicio al Cliente, muestra cantidades diarias asi como su variación respecto al día anterior. Tambien muestra la agrupación de estas.","creator":"Alan Medina","keywords":"Tipificación","Carga":"En Línea","Fecha de Publicación":"12/30/2022","Desarrollador":"Nildo Huachaca Rodriguez","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Qlik Sense","stream":"Servicio al Cliente - Operativo","title":"Trazabilidad de Canal y Marcación","description":"El dashboard proporciona la cantidad de llamadas de los diferentes canales de atención telefónica y las diferentes marcaciones que proporciona los ivr's mostrando los diferentes estados que tiene el cliente desde el ivr hasta el fianl de la llamada.","creator":"Alan Medina","keywords":"Cliente, Marcación, Socio Comercial","Carga":"Diario - 6:00 am, 10:00 am, 12:00 pm, 2:00 pm, 4:00 pm y 6:00 pm","Fecha de Publicación":"03/17/2025","Desarrollador":"Christian Andre Galindo Rios","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicios de Valor Agregado - Operativo","title":"Cobros Servicios SVA","description":"Muestra los cobros exitosos registrados dentro del CMS de los diferentes servicios/productos SVA","creator":"Robert Davidzon Mata Huerta","keywords":"Ingreso","Carga":"En Línea","Fecha de Publicación":"44925","Desarrollador":"John Antohny Panana Chumpitaz","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Servicios de Valor Agregado - Operativo","title":"Información Productos SVA 360","description":"Muestra información End to End de los productos Agregadores SVA. Es decir, desde la Publicidad, captación, cobrabilidad y uso del producto.","creator":"Robert Davidzon Mata Huerta","keywords":"Agregador","Carga":"Diaria 9AM, 12PM, 4PM y 8PM","Fecha de Publicación":"45719","Desarrollador":"John Antohny Panana Chumpitaz","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Tecnologia - Operativo","title":"Análisis de Tickets","description":"El dashboard muestra el total de tickets generados en REMEDY en Backlog y Resueltos que se han asignado a la dirección de Tecnología, exceptuando los grupos 'Procesos de Facturación' y 'Gestión de Licencias TI'.","creator":"Josue Alfonso Balarezo Llerena","keywords":"Diaria cada hora de 8 AM a 10 PM","Carga":"45778","Fecha de Publicación":"","Desarrollador":"Elver Ramirez","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Tecnologia - Operativo","title":"Control de Cambios","description":"Monitorear la productividad interna del área de desempeño de sistemas, presentando la información del inventario de controles del área, incluyendo control nuevos, modificados, automatizados. Asimismo, se realiza el seguimiento de las reuniones de entendimiento atendidos por el área de desempeño de sistemas.","creator":"Percy Rojas","keywords":"","Carga":"Diario - 9:30AM, 1:30PM y 7:3PM","Fecha de Publicación":"44925","Desarrollador":"Leonardo Guillermo Falcon Choque","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-,
-{"Herramienta":"Power BI","stream":"Tecnologia - Operativo","title":"Desempeño de Sistemas de los procesos de Negocio","description":"Cantidad de Clientes afectados, ticket pendientes de alinear, monto impactado por Macroproceso, Proceso, control, etc.","creator":"Percy Rojas","keywords":"Falla, Negocio, SOX","Carga":"Diaria 9:30 AM, 11:30 AM, 1:30 PM, 3:30PM, 5:30PM y 7:30PM","Fecha de Publicación":"01/07/2025","Desarrollador":"Noelia Doris Torres Cauti, Leonardo Guillermo Falcon Choque","url-dashboard":"","url-portada":"https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"}
-
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Interacciones de Altas y Bajas",
+    "description": "Dashboassrd donde se muestran los motivos de llamadas de los clientes de Alta y Baja, adicionando indicadores de gestión como son su TNPS, NPS, TMG.",
+    "creator": "Alan Medina",
+    "keywords": "SOT, Mantenimiento, Tipificación",
+    "Carga": "Diario - 2:00 pm",
+    "Fecha de Publicación": "02/16/2023",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "Sin URL por cambios de tecnología de tableros",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Interacciones de Clientes Únicos",
+    "description": "Dashboard que nos permite conocer la cantidad de interacciones por clientes únicos en todas sus segmentaciones, adicionando el parque de clientes y llamadas de campaña asociada",
+    "creator": "Alan Medina",
+    "keywords": "Cliente, Tipificación",
+    "Carga": "Diario - 12:15 pm",
+    "Fecha de Publicación": "02/21/2024",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "Sin URL por cambios de tecnología de tableros",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Notas Crédito Observadas",
+    "description": "El reporte muestra el detalle de las notas de créditos observadas por escenario desde hace 1 año hasta el día de hoy.",
+    "creator": "Alan Medina",
+    "keywords": "Nota, Nota De Crédito",
+    "Carga": "En Línea",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Gabriel Alberto Mayuri Cordero",
+    "url-dashboard": "https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/f5333ad6-de0c-4a7f-82cc-567a049c2335?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Notas de Crédito",
+    "description": "El reporte muestra las Notas de Créditos generadas de la operación, para que con la revisión y analisis diario puedan ir tomando acciones para la reducción de ajustes. Los indicadores son: ratio de notas de crédito vs Llamadas atendidas, cantidad de notas de crédito por Día, niveles de aprobación, Ranking de notas de crédito por asesor, evolución mensual, evolución diaria, ranking de motivos y sub motivos de imputación. Variables: Q de notas de créditos, montos por NC, Campañas, Interacciones.",
+    "creator": "Alan Medina",
+    "keywords": "Nota De Crédito",
+    "Carga": "Diaria 3 PM",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Gabriel Alberto Mayuri Cordero",
+    "url-dashboard": "https://app.powerbi.com/groups/me/reports/b91f88c2-0856-47b7-8bd3-548f8506ae2f/ReportSection4c6fbe76e690bc0e48a2?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "OCC's",
+    "description": "El reporte muestra todas las Occ ingresadas por mes con la fecha de aplicación a futuro, la participación por Dirección, Área y Operación. El reporte contiene la cantidad y el total por mes. Total por servicio y concepto de Occ.",
+    "creator": "Alan Medina",
+    "keywords": "Nota, OCC",
+    "Carga": "Diaria 12:30 PM",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Gabriel Alberto Mayuri Cordero",
+    "url-dashboard": "https://app.powerbi.com/groups/me/reports/2493a006-fac0-410c-b427-b0000eb3e8dd/ReportSection?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Planificación - Canal Telefónico",
+    "description": "Muestra la planificación de llamadas de Call Center de las diferentes campañas del canal telefónico.",
+    "creator": "Alan Medina",
+    "keywords": "Franja, Socio Comercial",
+    "Carga": "Diario - 12:00 pm, 1:00 pm y 3:00 pm",
+    "Fecha de Publicación": "02/27/2023",
+    "Desarrollador": "Christian Andre Galindo Rios",
+    "url-dashboard": "Sin URL por cambios de tecnología de tableros",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Recargas Manuales Prepago y Postpago",
+    "description": "El reporte de Recargas muestra todas las recargas prepago y postpago que se han ejecutado manualmente que han brindado soles como fidelización para pruebas operativas de la líneas prepago, en el caso de postpago hace referencia a las recargas generadas para los clientes corporativos y para los débitos generados de los pavgos errados.",
+    "creator": "Alan Medina",
+    "keywords": "Recarga",
+    "Carga": "Diaria 12:00 PM",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "https://app.powerbi.com/groups/me/reports/be265b04-24df-4652-97b6-128ccfa69d9e/ReportSection?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Reclamos y SAR",
+    "description": "El reporte muestra los indicadores de Reclamos y Sar (Solución Anticipada al Reclamo) generadas por la Dirección de Servicio al Cliente",
+    "creator": "Alan Medina",
+    "keywords": "",
+    "Carga": "En Línea",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "https://app.powerbi.com/groups/me/reports/86e4face-acc0-453c-b0b2-fd1cef1da6b8/ReportSection45db02f66c80db08a2e9?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Reconexiones y Casos OAC",
+    "description": "Muestra las reconexiones del aplicativo OAC, muestra la recurrencia de reconexiones por línea y servicios fijos. Muestra la cabtidad de casos generados en SIAC que cuentan con una reconexión oac como lo indica el proceso. Además que valida la dilación de tiempo entre la generación de un caso y el tiempo que demora en ejecutar la reconexión por el oac.",
+    "creator": "Alan Medina",
+    "keywords": "",
+    "Carga": "Diaria 12 PM",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/35d4cfab-538f-4e2a-b82f-cfdbd9d7997f?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Reincidencia de Casos",
+    "description": "El reporte de Recurrencia de Casos informa que transacciones se están volviendo a generar al mismo cliente por la misma sub clase dentro de un mismo periodo.",
+    "creator": "Alan Medina",
+    "keywords": "",
+    "Carga": "Diaria 12:00 PM",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/4cfe2a60-ba2f-416f-a879-8b4049f660b5?experience=power-bi",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Resultados de Calidad",
+    "description": "Muestra el consolidado de los resultados, objetivos y cumplimiento de los principales indicadores del área de Calidad",
+    "creator": "Jose Luis Medina",
+    "keywords": "Mala Práctica",
+    "Carga": "Diario - 10:00 am y 4:00 pm",
+    "Fecha de Publicación": "02/23/2023",
+    "Desarrollador": "Rafael Junior Saenz Dextre",
+    "url-dashboard": "s",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Speech Analytics",
+    "description": "Muestra los resultados por campaña de las categorías creadas dentro de la plataforma Speech Analytics.",
+    "creator": "Jose Luis Medina",
+    "keywords": "Speech Analytics",
+    "Carga": "Lunes - 8:00 pm",
+    "Fecha de Publicación": "04/25/2023",
+    "Desarrollador": "Rafael Junior Saenz Dextre",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Tipificaciones Call Center",
+    "description": "El reporte muestra las tipificaciones generadas por nuestros diversos socios en las diferentes campañas de Servicio al Cliente, muestra cantidades diarias asi como su variación respecto al día anterior. Tambien muestra la agrupación de estas.",
+    "creator": "Alan Medina",
+    "keywords": "Tipificación",
+    "Carga": "En Línea",
+    "Fecha de Publicación": "12/30/2022",
+    "Desarrollador": "Nildo Huachaca Rodriguez",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Qlik Sense",
+    "stream": "Servicio al Cliente - Operativo",
+    "title": "Trazabilidad de Canal y Marcación",
+    "description": "El dashboard proporciona la cantidad de llamadas de los diferentes canales de atención telefónica y las diferentes marcaciones que proporciona los ivr's mostrando los diferentes estados que tiene el cliente desde el ivr hasta el fianl de la llamada.",
+    "creator": "Alan Medina",
+    "keywords": "Cliente, Marcación, Socio Comercial",
+    "Carga": "Diario - 6:00 am, 10:00 am, 12:00 pm, 2:00 pm, 4:00 pm y 6:00 pm",
+    "Fecha de Publicación": "03/17/2025",
+    "Desarrollador": "Christian Andre Galindo Rios",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicios de Valor Agregado - Operativo",
+    "title": "Cobros Servicios SVA",
+    "description": "Muestra los cobros exitosos registrados dentro del CMS de los diferentes servicios/productos SVA",
+    "creator": "Robert Davidzon Mata Huerta",
+    "keywords": "Ingreso",
+    "Carga": "En Línea",
+    "Fecha de Publicación": "44925",
+    "Desarrollador": "John Antohny Panana Chumpitaz",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Servicios de Valor Agregado - Operativo",
+    "title": "Información Productos SVA 360",
+    "description": "Muestra información End to End de los productos Agregadores SVA. Es decir, desde la Publicidad, captación, cobrabilidad y uso del producto.",
+    "creator": "Robert Davidzon Mata Huerta",
+    "keywords": "Agregador",
+    "Carga": "Diaria 9AM, 12PM, 4PM y 8PM",
+    "Fecha de Publicación": "45719",
+    "Desarrollador": "John Antohny Panana Chumpitaz",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Tecnologia - Operativo",
+    "title": "Análisis de Tickets",
+    "description": "El dashboard muestra el total de tickets generados en REMEDY en Backlog y Resueltos que se han asignado a la dirección de Tecnología, exceptuando los grupos 'Procesos de Facturación' y 'Gestión de Licencias TI'.",
+    "creator": "Josue Alfonso Balarezo Llerena",
+    "keywords": "Diaria cada hora de 8 AM a 10 PM",
+    "Carga": "45778",
+    "Fecha de Publicación": "",
+    "Desarrollador": "Elver Ramirez",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Tecnologia - Operativo",
+    "title": "Control de Cambios",
+    "description": "Monitorear la productividad interna del área de desempeño de sistemas, presentando la información del inventario de controles del área, incluyendo control nuevos, modificados, automatizados. Asimismo, se realiza el seguimiento de las reuniones de entendimiento atendidos por el área de desempeño de sistemas.",
+    "creator": "Percy Rojas",
+    "keywords": "",
+    "Carga": "Diario - 9:30AM, 1:30PM y 7:3PM",
+    "Fecha de Publicación": "44925",
+    "Desarrollador": "Leonardo Guillermo Falcon Choque",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  },
+  {
+    "Herramienta": "Power BI",
+    "stream": "Tecnologia - Operativo",
+    "title": "Desempeño de Sistemas de los procesos de Negocio",
+    "description": "Cantidad de Clientes afectados, ticket pendientes de alinear, monto impactado por Macroproceso, Proceso, control, etc.",
+    "creator": "Percy Rojas",
+    "keywords": "Falla, Negocio, SOX",
+    "Carga": "Diaria 9:30 AM, 11:30 AM, 1:30 PM, 3:30PM, 5:30PM y 7:30PM",
+    "Fecha de Publicación": "01/07/2025",
+    "Desarrollador": "Noelia Doris Torres Cauti, Leonardo Guillermo Falcon Choque",
+    "url-dashboard": "",
+    "url-portada": "https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png"
+  }
 ]

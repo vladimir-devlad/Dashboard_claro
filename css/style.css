@@ -234,29 +234,24 @@ p {
   gap: 8px;
 }
 .dashboard__sidebar-icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   background-color: currentColor;
   mask: url("/assets/icons/icon-dash.svg") no-repeat center;
   -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
   mask-size: contain;
   -webkit-mask-size: contain;
-  color: #000000;
 }
 .dashboard__sidebar-link {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 10px 14px;
+  padding: 16px 14px;
   border-radius: 8px;
-  color: #000000;
   transition: background-color 0.2s, color 0.2s;
 }
 .dashboard__sidebar-link:hover {
   background: #da291c;
-  color: #ffffff;
-}
-.dashboard__sidebar-link--active {
   color: #ffffff;
 }
 .dashboard__sidebar-link--active {
@@ -327,6 +322,7 @@ p {
   .cards-powerbi__header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   .cards-powerbi__header-search {
     display: block;

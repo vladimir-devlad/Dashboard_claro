@@ -46,7 +46,7 @@
     font: typo.$fontH2Mobile;
     align-items: center;
   }
-  &__description{
+  &__description {
     font: typo.$fontParagraphMobile;
   }
   &__list {
@@ -68,10 +68,10 @@
     &__information {
       text-align: left;
     }
-    &__title{
+    &__title {
       font: typo.$fontH2Desktop;
     }
-    &__description{
+    &__description {
       font: typo.$fontParagraphDesktop;
     }
     &__list {
@@ -83,6 +83,7 @@
     &__header {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
     &__header-search {
       display: block;

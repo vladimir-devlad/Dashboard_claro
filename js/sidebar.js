@@ -14,9 +14,10 @@ const sidebarList = document.getElementById("sidebarList");
 
 const categoryTitle = document.querySelector(".cards-powerbi__title");
 
+const modalButtons = modal.querySelectorAll("button, a");
 
 let allData = [];
-
+let activeCategory = null;
 // =====================
 // FETCH DATA
 // =====================
@@ -25,7 +26,9 @@ fetch("json/data.json")
   .then((data) => {
     allData = data;
     renderSidebar(data);
-    renderCards(data); // mostrar todo al inicio
+    // renderCards(data); // mostrar todo al inicio
+    const firstCategory = data[0].Herramienta;
+    filterByCategory(firstCategory);
   })
   .catch((error) => console.error("Error cargando JSON:", error));
 
@@ -35,7 +38,6 @@ fetch("json/data.json")
 function renderSidebar(data) {
   sidebarList.innerHTML = "";
 
-  
   const categories = [...new Set(data.map((item) => item.Herramienta))];
 
   categories.forEach((Herramienta, index) => {
@@ -77,7 +79,7 @@ function setActiveLink(activeItem) {
 // =====================
 
 function filterByCategory(Herramienta) {
-  const filtered = allData.filter(item => item.Herramienta === Herramienta);
+  const filtered = allData.filter((item) => item.Herramienta === Herramienta);
   categoryTitle.textContent = Herramienta; // 👈 actualiza el H2
   renderCards(filtered);
 }
@@ -88,7 +90,6 @@ function renderCards(data) {
 }
 
 function createCard(item) {
-
   const card = document.createElement("article");
   card.classList.add("card");
 
@@ -127,4 +128,10 @@ closeModal.addEventListener("click", () => {
 
 overlay.addEventListener("click", () => {
   modal.classList.remove("modal--active");
+});
+
+modalButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modal.classList.remove("modal--active");
+  });
 });
