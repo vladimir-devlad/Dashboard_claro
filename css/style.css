@@ -121,7 +121,7 @@ svg {
 
 @media (min-width: 768px) {
   .dashboard {
-    grid-template-columns: 220px auto;
+    grid-template-columns: 270px auto;
     grid-template-rows: 70px 1fr 30px;
     grid-template-areas: "sidebar header" "sidebar main" "sidebar footer";
   }
@@ -231,23 +231,16 @@ p {
 .dashboard__sidebar-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-}
-.dashboard__sidebar-icon {
-  width: 18px;
-  height: 18px;
-  background-color: currentColor;
-  mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-  -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-  mask-size: contain;
-  -webkit-mask-size: contain;
+  gap: 4px;
+  border: 1px solid red;
 }
 .dashboard__sidebar-link {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 16px 14px;
+  gap: 6px;
+  padding: 8px 8px;
   border-radius: 8px;
+  font-size: 14px;
   transition: background-color 0.2s, color 0.2s;
 }
 .dashboard__sidebar-link:hover {
@@ -263,7 +256,6 @@ p {
   grid-area: main;
   padding: 16px;
   height: 100%;
-  overflow: hidden;
 }
 
 .cards-powerbi {
@@ -371,6 +363,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 8px;
+  display: none;
 }
 .card__tags .card__tag {
   padding: 6px;
@@ -532,6 +525,55 @@ p {
 }
 .btn--link:hover {
   text-decoration: underline;
+}
+
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.detail__left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.detail__preview {
+  width: 100%;
+  height: 200px;
+  background-color: currentColor;
+}
+.detail__description {
+  display: inherit;
+  flex-direction: column;
+  text-align: left;
+}
+.detail__right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.detail__field {
+  display: inherit;
+  flex-direction: column;
+  text-align: left;
+  gap: 2px;
+}
+.detail__label {
+  text-align: left;
+  font-size: 10px;
+}
+.detail__value {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 10px 15px;
+  background-color: white;
+  align-items: center;
+}
+.detail__herramienta {
+  border: 1px solid #d3d60c;
+  border-radius: 50px;
+  padding: 2px 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

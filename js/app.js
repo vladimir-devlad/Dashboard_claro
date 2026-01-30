@@ -31,7 +31,7 @@ fetch("json/data.json")
     renderSidebar(data);
 
     if (data.length > 0) {
-      const firstCategory = data[0].Herramienta;
+      const firstCategory = data[0].stream;
       filterByCategory(firstCategory);
     }
   })
@@ -43,9 +43,9 @@ fetch("json/data.json")
 function renderSidebar(data) {
   sidebarList.innerHTML = "";
 
-  const categories = [...new Set(data.map((item) => item.Herramienta))];
+  const categories = [...new Set(data.map((item) => item.stream))];
 
-  categories.forEach((Herramienta, index) => {
+  categories.forEach((stream, index) => {
     const li = document.createElement("li");
     li.className = "dashboard__sidebar-item";
 
@@ -54,14 +54,14 @@ function renderSidebar(data) {
         index === 0 ? "dashboard__sidebar-link--active" : ""
       }">
         <span class="dashboard__sidebar-icon"></span>
-        <span class="dashboard__sidebar-label">${Herramienta}</span>
+        <span class="dashboard__sidebar-label">${stream}</span>
       </a>
     `;
 
     li.addEventListener("click", (e) => {
       e.preventDefault();
       setActiveLink(li);
-      filterByCategory(Herramienta);
+      filterByCategory(stream);
     });
 
     sidebarList.appendChild(li);
@@ -83,15 +83,14 @@ function setActiveLink(activeItem) {
 // =====================
 // CARDS + FILTROS
 // =====================
-function filterByCategory(Herramienta) {
-  activeCategory = Herramienta;
+function filterByCategory(stream) {
+  activeCategory = stream;
 
-  // 🔹 limpiar search al cambiar categoría (opcional UX)
   searchInput.value = "";
 
-  const filtered = allData.filter((item) => item.Herramienta === Herramienta);
+  const filtered = allData.filter((item) => item.stream === stream);
 
-  categoryTitle.textContent = Herramienta;
+  categoryTitle.textContent = stream;
   renderCards(filtered);
 }
 
@@ -129,7 +128,7 @@ function createCard(item) {
   card.addEventListener("click", () => {
     modalTitle.textContent = item.title;
     modalDescription.textContent = item.description;
-    modalButton.href = item["url-dashboard"];
+    modalButton.href = item["url-tablero"];
     modal.classList.add("modal--active");
   });
 
@@ -146,7 +145,7 @@ searchInput.addEventListener("input", (e) => {
 
   const filtered = allData.filter(
     (item) =>
-      item.Herramienta === activeCategory &&
+      item.stream === activeCategory &&
       item.title.toLowerCase().includes(term),
   );
 

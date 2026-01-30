@@ -1,0 +1,260 @@
+codigo,herramienta,stream,title,description,creator,keywords,actualizacion,publicado,developer,notas,url-tablero,url-portada
+1,Qlik Sense,Servicio al Cliente - Operativo,Interacciones de Altas y Bajas,"Dashboard donde se muestran los motivos de llamadas de los clientes de Alta y Baja, adicionando indicadores de gestión como son su TNPS, NPS, TMG.",Alan Medina,"SOT, Mantenimiento, Tipificación",Diario - 2:00 pm,16/02/2023,Nildo Huachaca Rodriguez,Ver,Sin URL por cambios de tecnología de tableros,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+2,Qlik Sense,Servicio al Cliente - Operativo,Interacciones de Clientes Únicos,"Dashboard que nos permite conocer la cantidad de interacciones por clientes únicos en todas sus segmentaciones, adicionando el parque de clientes y llamadas de campaña asociada",Alan Medina,"Cliente, Tipificación",Diario - 12:15 pm,21/02/2024,Nildo Huachaca Rodriguez,Ver,Sin URL por cambios de tecnología de tableros,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+3,Power BI,Servicio al Cliente - Operativo,Notas Crédito Observadas,El reporte muestra el detalle de las notas de créditos observadas por escenario desde hace 1 año hasta el día de hoy.,Alan Medina,"Nota, Nota De Crédito",En Línea,30/12/2022,Gabriel Alberto Mayuri Cordero,Ver,https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/f5333ad6-de0c-4a7f-82cc-567a049c2335?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+4,Power BI,Servicio al Cliente - Operativo,Notas de Crédito,"El reporte muestra las Notas de Créditos generadas de la operación, para que con la revisión y analisis diario puedan ir tomando acciones para la reducción de ajustes. Los indicadores son: ratio de notas de crédito vs Llamadas atendidas, cantidad de notas de crédito por Día, niveles de aprobación, Ranking de notas de crédito por asesor, evolución mensual, evolución diaria, ranking de motivos y sub motivos de imputación. Variables: Q de notas de créditos, montos por NC, Campañas, Interacciones.",Alan Medina,Nota De Crédito,Diaria 3 PM,30/12/2022,Gabriel Alberto Mayuri Cordero,Ver,https://app.powerbi.com/groups/me/reports/b91f88c2-0856-47b7-8bd3-548f8506ae2f/ReportSection4c6fbe76e690bc0e48a2?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+5,Power BI,Servicio al Cliente - Operativo,OCC's,"El reporte muestra todas las Occ ingresadas por mes con la fecha de aplicación a futuro, la participación por Dirección, Área y Operación. El reporte contiene la cantidad y el total por mes. Total por servicio y concepto de Occ.",Alan Medina,"Nota, OCC",Diaria 12:30 PM,30/12/2022,Gabriel Alberto Mayuri Cordero,Ver,https://app.powerbi.com/groups/me/reports/2493a006-fac0-410c-b427-b0000eb3e8dd/ReportSection?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+6,Qlik Sense,Servicio al Cliente - Operativo,Planificación - Canal Telefónico,Muestra la planificación de llamadas de Call Center de las diferentes campañas del canal telefónico.,Alan Medina,"Franja, Socio Comercial","Diario - 12:00 pm, 1:00 pm y 3:00 pm",27/02/2023,Christian Andre Galindo Rios,,Sin URL por cambios de tecnología de tableros,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+7,Power BI,Servicio al Cliente - Operativo,Recargas Manuales Prepago y Postpago,"El reporte de Recargas muestra todas las recargas prepago y postpago que se han ejecutado manualmente que han brindado soles como fidelización para pruebas operativas de la líneas prepago, en el caso de postpago hace referencia a las recargas generadas para los clientes corporativos y para los débitos generados de los pavgos errados.",Alan Medina,Recarga,Diaria 12:00 PM,30/12/2022,Nildo Huachaca Rodriguez,Ver,https://app.powerbi.com/groups/me/reports/be265b04-24df-4652-97b6-128ccfa69d9e/ReportSection?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+8,Power BI,Servicio al Cliente - Operativo,Reclamos y SAR,El reporte muestra los indicadores de Reclamos y Sar (Solución Anticipada al Reclamo) generadas por la Dirección de Servicio al Cliente,Alan Medina,,En Línea,30/12/2022,Nildo Huachaca Rodriguez,Ver,https://app.powerbi.com/groups/me/reports/86e4face-acc0-453c-b0b2-fd1cef1da6b8/ReportSection45db02f66c80db08a2e9?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+9,Power BI,Servicio al Cliente - Operativo,Reconexiones y Casos OAC,"Muestra las reconexiones del aplicativo OAC, muestra la recurrencia de reconexiones por línea y servicios fijos. Muestra la cabtidad de casos generados en SIAC que cuentan con una reconexión oac como lo indica el proceso. Además que valida la dilación de tiempo entre la generación de un caso y el tiempo que demora en ejecutar la reconexión por el oac.",Alan Medina,,Diaria 12 PM,30/12/2022,Nildo Huachaca Rodriguez,Ver,https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/35d4cfab-538f-4e2a-b82f-cfdbd9d7997f?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+10,Power BI,Servicio al Cliente - Operativo,Reincidencia de Casos,El reporte de Recurrencia de Casos informa que transacciones se están volviendo a generar al mismo cliente por la misma sub clase dentro de un mismo periodo.,Alan Medina,,Diaria 12:00 PM,30/12/2022,Nildo Huachaca Rodriguez,Ver,https://app.powerbi.com/groups/b7653fa6-b31d-4e8b-862a-b94c53064604/reports/4cfe2a60-ba2f-416f-a879-8b4049f660b5?experience=power-bi,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+11,Qlik Sense,Servicio al Cliente - Operativo,Resultados de Calidad,"Muestra el consolidado de los resultados, objetivos y cumplimiento de los principales indicadores del área de Calidad",Jose Luis Medina,Mala Práctica,Diario - 10:00 am y 4:00 pm,23/02/2023,Rafael Junior Saenz Dextre,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+12,Qlik Sense,Servicio al Cliente - Operativo,Speech Analytics,Muestra los resultados por campaña de las categorías creadas dentro de la plataforma Speech Analytics.,Jose Luis Medina,Speech Analytics,Lunes - 8:00 pm,25/04/2023,Rafael Junior Saenz Dextre,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+13,Power BI,Servicio al Cliente - Operativo,Tipificaciones Call Center,"El reporte muestra las tipificaciones generadas por nuestros diversos socios en las diferentes campañas de Servicio al Cliente, muestra cantidades diarias asi como su variación respecto al día anterior. Tambien muestra la agrupación de estas.",Alan Medina,Tipificación,En Línea,30/12/2022,Nildo Huachaca Rodriguez,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+14,Qlik Sense,Servicio al Cliente - Operativo,Trazabilidad de Canal y Marcación,El dashboard proporciona la cantidad de llamadas de los diferentes canales de atención telefónica y las diferentes marcaciones que proporciona los ivr's mostrando los diferentes estados que tiene el cliente desde el ivr hasta el fianl de la llamada.,Alan Medina,"Cliente, Marcación, Socio Comercial","Diario - 6:00 am, 10:00 am, 12:00 pm, 2:00 pm, 4:00 pm y 6:00 pm",17/03/2025,Christian Andre Galindo Rios,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+15,Power BI,Servicios de Valor Agregado - Operativo,Cobros Servicios SVA,Muestra los cobros exitosos registrados dentro del CMS de los diferentes servicios/productos SVA,Robert Davidzon Mata Huerta,Ingreso,En Línea,30/12/2022,John Antohny Panana Chumpitaz,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+16,Power BI,Servicios de Valor Agregado - Operativo,Información Productos SVA 360,"Muestra información End to End de los productos Agregadores SVA. Es decir, desde la Publicidad, captación, cobrabilidad y uso del producto.",Robert Davidzon Mata Huerta,Agregador,"Diaria 9AM, 12PM, 4PM y 8PM",03/03/2025,John Antohny Panana Chumpitaz,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+17,Power BI,Tecnologia - Operativo,Análisis de Tickets,"El dashboard muestra el total de tickets generados en REMEDY en Backlog y Resueltos que se han asignado a la dirección de Tecnología, exceptuando los grupos 'Procesos de Facturación' y 'Gestión de Licencias TI'.",Josue Alfonso Balarezo Llerena,,Diaria cada hora de 8 AM a 10 PM,01/05/2025,Elver Ramirez,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+18,Power BI,Tecnologia - Operativo,Control de Cambios,"Monitorear la productividad interna del área de desempeño de sistemas, presentando la información del inventario de controles del área, incluyendo control nuevos, modificados, automatizados. Asimismo, se realiza el seguimiento de las reuniones de entendimiento atendidos por el área de desempeño de sistemas.",Percy Rojas,,"Diario - 9:30AM, 1:30PM y 7:3PM",30/12/2022,Leonardo Guillermo Falcon Choque,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+19,Power BI,Tecnologia - Operativo,Desempeño de Sistemas de los procesos de Negocio,"Cantidad de Clientes afectados, ticket pendientes de alinear, monto impactado por Macroproceso, Proceso, control, etc.",Percy Rojas,"Falla, Negocio, SOX","Diaria 9:30 AM, 11:30 AM, 1:30 PM, 3:30PM, 5:30PM y 7:30PM",07/01/2025,"Noelia Doris Torres Cauti, Leonardo Guillermo Falcon Choque",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+20,Power BI,Tecnologia - Operativo,Detalle tablas regulatorias,"Visualizar detalle de tablas pertenecientes a procesos regulatorios (ultima actualización, total de registros insertados, entre otros)",Luis Palacios,"Postgrado, Pregrado, Tabla, Venta",Diaria 9 AM,11/01/2024,Wilder Ramos Cahua,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+21,Power BI,Tecnologia - Operativo,Incidencias BI,"Visualizar detalle de los tickets asignados a nuestra bandeja en la Plataforma Remedy: ""SOPORTE BI""",Luis Palacios,"Soporte, Ticket",Diaria 9 AM,30/12/2022,Wilder Ramos Cahua,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+22,Power BI,Tecnologia - Operativo,Nivel de Calidad de desarrollo en la etapa QA,Mide el total de atenciones certificadas sobre el total de atenciones ingresadas por mes de creación y el total de defectos atendidos dentro del mes sobre el total de defectos ingresados en el mismo mes.,Percy Rojas,Calidad,Diario - 10:00 am y 3:00 pm,20/07/2023,"Leonardo Guillermo Falcon Choque, Noelia Doris Torres Cauti",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+23,Power BI,Tecnologia - Operativo,Nivel de Productividad de Desempeño de Sistemas,"Monitorear la productividad interna del área de desempeño de sistemas, presentando la información del inventario de controles del área, incluyendo control nuevos, modificados, automatizados. Asimismo, se realiza el seguimiento de las reuniones de entendimiento atendidos por el área de desempeño de sistemas.",Percy Rojas,"Monitoreo, Ticket","Diario - 9:30AM, 1:30PM y 7:30PM",03/09/2023,"Leonardo Guillermo Falcon Choque, Noelia Doris Torres Cauti",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+24,Power BI,Tecnologia - Operativo,Panel Bono por recarga,"El panel tiene como detalle, el comportamiento de la entrega de bonos que se les ofrece a los clientes por los diferentes rangos de recargas.",Percy Rojas,"Bono, Prepago, Recarga",Diaria 10 AM,20/02/2024,"Leonardo Guillermo Falcon Choque, Noelia Doris Torres Cauti",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+25,Power BI,Tecnologia - Operativo,Panel de Proyectos,"Se detalla la totalidad de ideas (En atención, Encolado y Cerrados).",Percy Rojas,"Facturación, Proyecto, Tecnología",Diaria 11 AM y 5 PM,16/11/2023,"Leonardo Guillermo Falcon Choque, Noelia Doris Torres Cauti",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+26,Power BI,Tecnologia - Operativo,Panel de ventas,Muestra la cantidad de ventas por cada tipo de transacción considerando la evolución por fechas y horas.,Percy Rojas,"Canal, Activación, Producto, Tipo De Transacción, Venta",En linea,30/12/2022,Leonardo Guillermo Falcon Choque,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+27,Power BI,Tecnologia - Operativo,Panel Técnico Indicador de Ventas,"Visualizar la tendencia diaria de ventas concretadas y recargas por cantidad de líneas y montos para el producto móvil Postpago y Prepago. Además, identificar la cantidad de ventas por tipo de transacción que no registraron su contrato generado en la venta en PVU",Percy Rojas,"Postpago, Prepago, Recarga, Venta","Diario - 9:30AM, 12:30PM, 3PM, 6PM, 7PM",15/09/2024,Leonardo Guillermo Falcon Choque,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+28,Power BI,Tecnologia - Operativo,Ranking de Calidad de Atención al Cliente,"El dashboard muestra una visión integral del Ranking de Calidad de Atención al cliente de los años 2022, 2023 y 2024. Ofrece una visión detallada de los trámites consultados y solicitados según la gerencia, área, canal de atención, tipo de trámite y fecha.",Mery Isabel Cruz,"Atención, Dirección, Tipo","Semanal - Viernes 6PM, 7PM y 8PM",06/02/2025,Jose Jesus Gonzales Estrella,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+29,Power BI,Tecnologia - Operativo,Reportes DWH,Resumen de las cargas y tendencias de reportes existentes en DWH para asegurar la correcta entrega de reportes. *Se irán agregando más de acuerdo al avance del desarrollo.,Luis Palacios,"Consignación, Venta",Diaria 9 AM,13/12/2023,Wilder Ramos Cahua,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+30,Power BI,Tecnologia - Operativo,Reportes regulatorios Bajas y Migraciones,Visualizar la cantidad de registros enviadas a Osiptel en los reportes regulatorios de Bajas y Migraciones según tipo de reportes.,Luis Palacios,"Baja, Migración",Diaria 8 AM,18/09/2023,Wilder Ramos Cahua,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+31,Power BI,Tecnologia - Operativo,Seguimiento de Proyectos de Tecnología,"El dashboard muestra una visión integral de los proyectos de TI en estado de atención de la Dirección de Tecnología. Facilita la supervisión de los proyectos actuales y el seguimiento de los nuevos ingresos. Además, ofrece una visión detallada de la distribución de los proyectos por subdirección y gerencia, lo que permite un análisis del estado de los proyectos para la toma de decisiones. Ayuda a evaluar el progreso general de los proyectos y para identificar oportunidades de mejora, lo que a su vez facilita la implementación de acciones correctivas para garantizar el avance y la conclusión exitosa de los proyectos asignados a la Dirección.",Mery Isabel Cruz,"Nintex, Proyecto, Tecnología, Requerimiento","Semanal - Viernes - 12PM, 3PM y 4PM",12/10/2023,Gabriela Elizabeth Villar Guevara,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+32,Power BI,Tecnologia - Operativo,Tabla de Control TI,"Muestra 4 tipos de campos : status , Ticket Del Mes , Agrupacion De Incidencias y PBI ; donde cada campo mediante los graficos se visualiza los tickets por estado , prioridad , dirección , equipo TI y proveedor",Nestor Alexis Collantes Diaz,Ticket,Diaria 11 AM y 3 PM,30/12/2022,Jorge Alberto Huaroc Herrera,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+33,Power BI,Tecnologia - Operativo,Validación correo de ventas fijas y móviles,Tener un control de las tendencias del correo de ventas fijas y móvils enviados a los directores.,Luis Palacios,"Accesorio, Postpago, Prepago",Diaria 9 AM,25/10/2023,Wilder Ramos Cahua,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+34,Power BI,Operaciones Comerciales - Operativo,Controversias de Recaudación Interna,"Dashboard dinámico e interactivo en Power BI para optimizar el proceso de monitoreo de atención de controversias. Este sistema automatiza y centraliza la recopilación, visualización y análisis de datos en tiempo real, eliminando la necesidad de consultas manuales repetitivas y facilitando la toma de decisiones estratégicas basadas en datos precisos y actualizados.",Esteban Augusto Angulo Zereceda,,Diario 11 AM y 3 PM,01/07/2025,"Nadya Ruiz, Briyan Jhilbert Hurtado Nuñuvero",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+35,Power BI,Mercado Masivo - Operativo,Reporte Unificado - Tienda Virtual,"Reporte que permite tener la trazabilidad del desempeño y eficacia de la actividad Ecommerce de Tienda Claro, desde la inversión digital hasta la venta.",Eddy Armando Fernandez Ochoa,"Tienda Virtual, Inversión, Venta",Diaria 10 AM,12/08/2025,Bruno Eduardo Bernedo Acosta,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+36,Power BI,Mercado Masivo - Operativo,Ecosistema Encuestas Fija,El dashboard nos permite entender el nivel de satisfacción del cliente con el servicio brindado por parte de retenciones.,Jhemeli Alexandra Garcia Carlos,"Cliente, Retención, Satisfacción De Atención",Diaria 11 AM,05/08/2025,Jamil Brandy Tuncar Quispe,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+37,Qlik Sense,Servicio al Cliente - Operativo,Calidad Emitida Canal Telefónico - Ventas 123,"Muestra los resultados de los principales indicadores de calidad de las campaña ventas 123 de Servicio al Cliente - Canal telefónico. Esta información es importante debido a que mide la calidad de nuestro servicio postventa según los lineamientos de atención establecidos por CLARO, asimismo nos permite auditar a los proveedores y asesores.",Jose Luis Medina,"Asesor, Calidad, Emitida, Campaña, Monitoreo, Rellamada",Diario - 11:10 am y 3:10 pm,21/08/2025,Rafael Junior Saenz Dextre,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+38,Power BI,Servicio al Cliente - Operativo,Gestión de Entrenamiento BPO,"El reporte muestra el detalle de resultados de cada una de las evaluaciones de calidad emitida tanto interna como la realizada por IPSOS. Adicionalmente, muestra información complementaria con el input de la información mostrada en el dashboard de calidad emitida ya que se pudem obtener indicadores requeridos por la operación de campañas como el uso de diagrama.",Alan Medina,"Campaña, Socio Comercial",Diario 8:30AM y 4:30PM,27/08/2025,Gabriel Alberto Mayuri Cordero,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+39,Power BI,Finanzas - Operativo,Lista de precios de equipos prepago 338 y P8F,Ursula Angelica Seminario Rosas,Lista,"Precio, Material",Diario 10AM,11/01/2024,Frank Michel Farfan Molina,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+40,Power BI,Mercado Masivo - Operativo,Reporte Gerencia de Instalación y Mantenimiento Residencial,"El flash muestra la evolución y variación de las ventas de los servicios fijos con tecnologías HFC, Fibra, Overlap, IFI, DTH, OLO y TFI. Además, muestra indicadores como el de velocidad promedio contratada, Mix, Arpu, monto de venta en soles y cargo fijo.",Sergio Martin Aranguren Murguia,"Evolución, Venta",0.395833333,02/09/2025,Wilfredo Chaca Unocc,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+41,Qlik Sense,Mercado Corporativo,Detalle de Ingresos Corporativos,El dashboard contiene el comportamiento de los ingresos de la dirección de mercado corporativos por mes.,Patricia Huisa,"Ingreso, Corporativo",Semanal - Lunes 12:00 pm,02/09/2025,Renzo Junnior Agurto Quiroga,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+42,Power BI,Operaciones Comerciales - Operativo,Gestión Operativa de Facturación,Se muestran los indicadores de la operación de facturación y soporte post facturación,Carlos Farfan,"Cliente, Facturación, Remedy","Diario - 8 am, 12 am, 3 pm, 7 pm y 10 pm",09/09/2025,"Smith Nicacio Serna Granados, Daniel Higa",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+43,Power BI,Mercado Masivo - Operativo,Consulta de Acciones IMR - Móvil y Fija,"El reporte muestra las acciones de retención y fidelización ofrecidas a los clientes en los últimos 12 meses, con la finalidad de conocer las acciones ofrecidas y ver el detalle de cada acción. Permite validar la información (importe y cantidad) por área y operación.",Alan Medina,"Acción, Retención, Cliente","Diaria 8 AM, 11 AM, 3 PM y 6 PM",07/04/2025,Jeans Carlos Delgadillo Campos,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+44,Qlik Sense,Dirección General,Desarrollo de la Base de Clientes,Seguimiento de la Estrategia Comercial de Up Selling y Cross Selling. Se incluyen las métricas de recarga para prepago,Juana Gutierrez,"Estratégico, Comercial, Cliente, Recarga, Prepago, Activación",Mensual - Día 8 - 9AM,15/09/2025,"Diego Manrique Santolalla, Robert Gianpierro jesus Nuñez Poma",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+45,Qlik Sense,Finanzas,Reporte de Descuentos Móviles,"El reporte muestra información referente al descuento de equipos móviles aperturados por Segmentos Masivo, Negocios y Corporativo.",Rocio Rupay,"Descuento, Facturación, Móvil, Equipo",Diario - 5:00 am,22/09/2025,"Carlos Augusto Sarmiento Dávila, Omar Alberto Zamudio",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+46,Power BI,Atención Presencial - Operativo,Reporte de Accesorios en ATP,Los indicadores que se muestran son la cantidad de ventas de accesorios y la venta de terminales nominal y soles realizadas por el asesor de CAC. El reporte nos permite visualizar el comportamiento de las llamadas recibidas en telepresencia y la experiencia del cliente en la misma. Las dimensiones usadas son Base de Telepresencia y Cabinas.,Gary Joe Montero Herrera,"Accesorio, Asesor, Terminal, Venta",Diaria 11 AM,24/10/2024,Julio Arrasco,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+47,Power BI,Gestión Humana - Compensaciones y Adm. Personal - Confidencial,Estudio de la Propuesta de Valor al Colaborador 2025,"Reporte que muestra los resultados de la importancia, experiencia y NPS obtenidos de la Encuesta de Propuesta de Valor, con respecto a las Dimensiones de Compensaciones, Desarrollo Profesional, Ambiente de Trabajo, Salud y Bienestar, Cultura Organizacional y sus elementos.",Juan Jose Sanchez Alva,"Colaborador, A Demanda",,04/08/2025,Xiomara De gema Salluca Lujan,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+48,Power BI,Mercado Masivo - Operativo,Cambios de Planes Fija,"Trae todos los cambios de plan de los servicios fijos, y los comparamos con los cambios solo de la gestión del squad de la fija.",Juana Gutierrez,"Plan, Fija",Diaria 11 AM,24/07/2025,Katerine Patricia Ramos Pacherres,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+49,Power BI,Mercado Masivo - Operativo,Indicadores Claro Puntos,"El dashboard muestra el evolutivo de los diferentes canjes que se pueden realizar con los Claro puntos. Algunos indicadores son el objetivo de canje (real y proyectado), el uso de la alianza LATAM y el % de participación en el intercambio de millas a puntos (y viceversa). Es una herramienta del área que permite dar seguimiento al beneficio y alertar cualquier tendencia para poder mejorar la capacidad de respuesta.",Paula Cortijo,"Canje, Claro Punto",Diaria 10:30 AM,08/07/2025,Jair Fabrizio Campos Lozano,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+50,Power BI,Mercado Masivo - Operativo,Efectividad de las Campañas Prepago,Reporte que mide la efectividad de la comunicación prepago con acción de recarga,Juana Gutierrez,"Campaña, Efectividad, Prepago, Recarga",Diaria 10:30 AM,18/02/2025,Willy Tomas Salsavilca Pacheco,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+51,Power BI,Mercado Masivo - Operativo,Seguimiento del Tráfico Prepago,"Seguimiento del volumen del tráfico y cantidad de líneas únicas móviles prepago que realizan tráfico por el Tipo Paquete, Bolsa consumida y Grupo de Tráfico.",Juana Gutierrez,"Línea, Móvil, Prepago, Tráfico",Diaria 10 AM,04/07/2025,Gonzalo Junior Machicao Atao,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+52,Power BI,Mercado Masivo - Operativo,Cumplimiento Operativo Dimensionado en Centros de Contacto,"Este reporte presenta el análisis del cumplimiento operativo en los centros de contacto, agrupando la información por socio comercial, campaña, forma de contratación y operadores(para tráfico). Permite evaluar el desempeño general en términos de productividad, tráfico y ocupación. Tiene como indicadores: Porcentaje de cumplimiento de horas trabajadas dimensionadas, Porcentaje de variación del tráfico dimensionado y Porcentaje de ocupación. Las dimensionadas usadas son: Socio Comercial, Campaña, Forma de contratación, Fecha, Horas productivas, Horas dimensionadas, Tráfico real, Tráfico dimensionado, Tiempo neto trabajado, Tiempo bruto trabajado,",Victor Hugo Ortiz Perez,"Cumplimiento, Campaña, Puntos De Contacto",Diaria 9 AM,13/08/2025,Nelson Andre Alvarez Correa,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+53,Power BI,Mercado Masivo - Operativo,Indicadores Infancia,"Para medir los indicadores de atención de los clientes nuevos en la familia de Claro Hogar, se han implementado un dashboard para poder ver los indicadores de atención multiplaforma mes a mes. Los supervisores podrán monitorear los clientes contactados, la base de envío, motivo de llamadas, motivo de baja, indicadores de tiempo de atención, etc. que les ayudará a tomar acciones en el mes en curso y mejorar sus indicadores.",Paola Gonzales,"Atención, Baja, Churn, Whatsapp",Diaria 12PM,19/08/2025,Nathan Josue Silvera Iñigo,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+54,Power BI,Servicio al Cliente - Operativo,Consultas de Red,El reporte muestra a los asesores con mayor cantidad de consultas a red sospechosas.,Alan Medina,"Asesor, Red, Telefonía",Diaria 8 AM,26/06/2025,Gabriel Alberto Mayuri Cordero,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+55,Power BI,Mercado Masivo - Operativo,Gestión Televentas Outbound y Acuerdos Comerciales,Seguimiento de KPI's y gestión por callcenter de portabilidad móvil outbound,Jorge Gustavo Quiñones Gamero,"Call Center, Móvil, Outbound, Portabilidad",Diaria 11:30 AM y 1:00 PM,27/12/2023,Angie Mishelly Gala Salazar,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+56,Power BI,Mercado Masivo - Operativo,Reporte de Lineas Adicionales Postpago,Reporte de los KPIs del Funnel de tickets provenientes de las ventas de Lineas Adicionales,Eric Soldevilla,Funnel,Diario 10 AM,26/09/2025,"Robin Alexis Luna Rodriguez, Adrian Maximo Huaccho Zapata",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+57,Power BI,Mercado Corporativo - Operativo,Base Clientes y No Clientes,"El dashboard tiene un alcance a nivel de dirección, gerencias y jefaturas, en la cual se mostrara información acerca de cantidad de nuestros clientes y posibles clientes(no clientes) de acuerdo al lugar donde operan, esta informacion nos permite analizar el mercado actual mes a mes y como nuestros colaborades del area, tales como jefe y consultores cumplen con nuestros objetivos de acuerdo a las caracteristicas de las empresas de las cuales tenemos informacion.",Patricia Huisa,"Cliente, Penetración, Grupo Económico","Diaria 10 AM , 4PM",06/10/2025,Gabriel Tiza Huaringa,,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+58,Power BI,Mercado Masivo,Retención Móvil Postpago Speech,"Se detallan los indicadores (% coincidencia, participacion de motivos de baja, participación del manifiesto, % TNPS, % correcta tipificación) que ayudan a hacerle unas auditorías de calidad a gran escala",Victor Hugo Ortiz Perez,"Baja, Tipificación","Semanal (Lunes, Miércoles y Viernes) 4pm",17/10/2025,Julio Cesar Matos Guayama,,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/Retenci%C3%B3n%20M%C3%B3vil%20Postpago%20Speech.pdf?csf=1&web=1&e=Qm9GHV,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+59,Qlik Sense,Servicio al Cliente - Operativo,Gestión de Reclamos resueltos,"El dashboard permite visualizar la gestión integral de los reclamos gestionados, incluyendo el estado de cada fase del proceso, la documentación asociada, constancias, documentos adjuntos y otros elementos clave. Está diseñado para asegurar el seguimiento adecuado de cada caso y disponibilizar la información relevante a la primera línea de la Dirección de Servicio al Cliente.",Alan Medina,"Reclamo, Monto, Validación, Cliente","Diario 9AM, 12 PM y 3PM",17/10/2025,Christian Andre Galindo Rios,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+60,Power BI,Mercado Masivo,Reporte Consulta Pedido Tienda Virtual,Reporte que contiene información del estado del pedido web del cliente,Eddy Armando Fernandez Ochoa,"Cliente, Visita Web, Pedido, Estado",Diaria 9 AM,21/10/2025,Jorge Luis Juan de dios Apaza,,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/Reporte%20Consulta%20Pedido%20Tienda%20Virtual.pdf?csf=1&web=1&e=HyFdSs,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+61,Power BI,Mercado Masivo,TNPS de Venta y Postventa de Fija,El dashboard nos permite entender el nivel de satisfacción del cliente con el servicio brindado.,Victor Hugo Ortiz Perez,"Postventa, Satisfacción De Atención, Cliente, Nivel",Diaria 11 AM,21/10/2025,Jamil Brandy Tuncar Quispe,,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/TNPS%20de%20Venta%20y%20Postventa%20de%20Fija.pdf?csf=1&web=1&e=qJc5fG,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+62,Power BI,Mercado Masivo,Seguimiento Fono Claro,Reporte que mide la efectividad de las comunicación TFI con acción de recarga y permite realizar el seguimiento de recargas de lineas TFI.,Juana Gutierrez,"Recarga, Efectividad, Telefonía",Diario 10:30 AM,21/10/2025,"Gonzalo Junior Machicao Atao, Willy Tomas Salsavilca Pacheco, Walter Josue Bautista Vilela",,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/Seguimiento%20Fono%20Claro.pdf?csf=1&web=1&e=CAAAgw,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+63,Qlik Sense,Dirección General,Análisis Cliente Único,"Muestra la cantidad de clientes y servicios para cada mes, junto a su ubicación, segmento de valor y antigüedad respectiva",Jorge Mondragon,"Cliente Único, Región, Segmento, Servicio",Mensual - Día 7 - 10:00 am,29/10/2025,Bill Giner Lopez Milla,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+64,Power BI,Mercado Masivo - Operativo,Reporte Marketplace - Tienda Virtual,Reporte que permite dar trazabilidad del desempeño comercial y estados de las ventas de Marketplace del canal Tienda Virtual.,Eddy Armando Fernandez Ochoa,"Tienda Virtual, Transacción, Comercial, Estado",Diario 9:30 AM,03/11/2025,Bruno Eduardo Bernedo Acosta,,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/Reporte%20Marketplace%20-%20Tienda%20Virtual.pdf?csf=1&web=1&e=dyCkoT,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+65,Power BI,Mercado Masivo - Operativo,Seguimiento de Repetidores Wifi,Muestra los repetidores adquiridos por los clientes,Juana Gutierrez,"Cliente, Transacción, Repetidor","Diario 11 AM, 12 PM",04/11/2025,Frank Nick Zanabria Santos,,https://amovperu.sharepoint.com/:b:/r/sites/OficinadeInteligenciadeDatosOID/Documentos%20compartidos/General/DASHBOARD%20QLIK%20Y%20POWER%20BI/Documentaci%C3%B3n%20Power%20BI/Seguimiento%20de%20Repetidores%20Wifi.pdf?csf=1&web=1&e=Dvhnqt,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+66,Power BI,Mercado Masivo - Operativo,Seguimiento de Campañas Retención Móvil,"El tablero permite ver los indicadores de seguimiento de todas las campañas que gestiona el canal de Retenciones ( %contacto, %retención)",Jhemeli Alexandra Garcia Carlos,"Campaña, Retención, Evolución, Gestión, Contacto",Diaria 9:30 AM,06/11/2025,ROBERTH PEREZ RIVERA,,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+67,Power BI,Auditoría y Control Interno - Operativo,Tráfico LDI cursado,"Visualiza el tráfico de voz internacional cursado (LDI) en minutos y la cantidad de eventos registrados en el período seleccionado. Permite analizar tendencias por fecha y país, así como identificar los destinos con mayor participación en el tráfico. Incluye indicadores globales y detalle por país, complementado con una vista detallada por evento para trazabilidad. Central: Plataforma Central en donde se registra el tráfico, a excepción del tráfico Extranjero.",Carla Zapata,Tráfico,Semanal Lunes a Viernes 12:30PM,07/11/2025,Hans Matos Rios,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+68,Power BI,Legal - Operativo,Reporte de Procesos Legales,Se muestra la información de sobre las contingencias mensuales de los procesos de la Dirección Legal.,Luis Quijada,"Demanda, Contingencia, Riesgo",Semanal - Lunes 12:00PM,11/11/2025,Bill Giner Lopez Milla,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+69,Power BI,Planeamiento Estratégico - Operativo,Tablero de Calidad de datos - Puntualidad y Tendencia,"Se muestra el control de la puntualidad y la tendencia de datos de tablas en warehouse, la puntualidad se muestra en con el detalle de horas de actualización y se consolida en cantidades de tablas actualizadas puntualmente, cantidades de tablas actualizadas tarde, cantidad de tablas no actualizadas, tablas vacías. La tendencia de datos se detalla con una variabilidad en la tendencia según el tipo de tabla y se evidencia en un gráfico evolutivo.",Adolfo Isidro,"Calidad, Gobierno, Tabla",En Línea,18/11/2025,Anderson Ronaldo Barrera Garcilazo,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+70,Power BI,Servicio al Cliente - Operativo,TNPS Ejecutivo - Mercado Masivo,Se muestra el TNPS de todas las campañas de Mercado Masivo,Alan Medina,"Campaña, Masivo, NPS","Diaria 10:00 AM, y 1:00 PM",17/11/2025,"Alan Medina, Nildo Huachaca Rodriguez, Cesar Adriano Lobato Tello",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+71,Power BI,Servicio al Cliente - Operativo,Matriz Indicadores México,"Muestra los principales indicadores del servicio fijo alámbrico HFC y FTTH, que se presentan en la sesión semanal con el Corporativo.",Alan Medina,"Alta, Fija, Tecnología, Rechazo",Diario 8:00 AM,25/11/2025,"Alan Medina, Gabriel Alberto Mayuri Cordero",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+72,Power BI,Tecnologia - Operativo,Desalineaciones Procesos y Conciliaciones,El reporte permite hacer un seguimiento de las diferencias entre los legados vs. SAP a nivel de documentos.,Josue Alfonso Balarezo Llerena,"Ajuste, Financiamiento",Diaria 9:00 AM y 3:00 PM,04/11/2025,Elver Ramirez,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+73,Power BI,Regional del Sur - Operativo,Cronograma de Capacitaciones,"Este reporte permite hacer seguimiento de las capacitaciones brindadas por parte del equipo de Gestión Humana de la Región del Sur, ademas de ver sus indicadores de forma historica ya sean por curso, capacitador y otros.",Juan Carlos Paredes,"Capacitación, Socio Comercial",Diaria 10:00 AM 1:00 PM y 4:00 PM,28/11/2025,Reich Jorge guillermo lui Llamoja Hilares,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+74,Power BI,Operaciones Comerciales - Operativo,TIN Experiencia al Socio Comercial,"Principalmente muestra indicadores que midan la satisfacción del socio comercial mediante encuestas realizadas periodicamente a traves del portal Qualtrics. Con la finalidad de identificar la brecha a mejorar a las cinco Áreas de Gestión de Canales, por un tablero en Power BI.",Danny Rojas,"Experiencia, Socio Comercial, Región, Categoría Socio",Semanal - Lunes 12:00 PM,12/12/2025,"Ruth Alvarez, Esteban Daniel Oscategui Valverde",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+75,Power BI,Finanzas - Operativo,Rentabilidad de Servicios SVA Masivo,"Dashboard creado para poder visualizar el análisis financiero evolutivo mensual y anual de los ingresos, costos, rentabilidad, usuarios y % de uso de los productos de SVA Masivo, como también muestra nuestro posicionamiento en el rubro de SVA comparado a los demás países del Grupo AMX. Esta presentación proporciona un enfoque en la cual permite identificar tendencias, variaciones significativas y oportunidades de mejora en la gestión financiera del rubro de SVA.",Patricia Carolina Acevedo,"Ingreso, SVA",Diario 4PM,11/12/2025,"MACGYVER HARRINSON HORNA CESPEDES, Omar Alberto Zamudio",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+76,Power BI,Mercado Corporativo,Base Portabilidad Corporativa,"El dashboard tiene un alcance a nivel de dirección, gerencias y jefaturas, en la cual se mostrara información acerca de cantidad de nuestros clientes moviles de acuerdo al lugar donde operan, que punto de venta tiene asigando la cuenta , si se subscribieron a un servicio movil de nuestro mercado o si se fueron a otra operadora, servira para brindar información de las empresas las cuales se subscribieron a uno de nuestros servicios y cuales se dieron de baja y se fueron a otra operadora.",Patricia Huisa,"Portabilidad, Corporativo","Diaria 10 AM, 12 PM , 5PM",12/12/2025,Gabriel Tiza Huaringa,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+77,Power BI,Auditoría y Control Interno - Operativo,Ejecución de Controles de AAII,"""Visualiza el estado de ejecución de los controles AAII en el período seleccionado, permitiendo analizar el cumplimiento y detectar posibles incidencias. La página ofrece filtros por fecha, resultado de ejecución, equipo, analista encargado y tipo de error, brindando flexibilidad para el análisis. Incluye indicadores globales como el porcentaje de controles no ejecutados, así como gráficos que muestran la distribución por período, equipo, analista y día, además de los motivos de error más frecuentes. Esta información facilita la identificación de tendencias, áreas críticas y causas principales de incumplimiento. RAPO: Revenue Assurance Process Optimizer. AAII: Aseguramiento de Ingresos""",Carla Zapata,"Análisis, Ejecución, Falla",Semanal Lunes a Viernes 12:30PM,17/12/2025,Hans Matos Rios,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+78,Power BI,Mercado Masivo - Operativo,Oportunidades Perdidas Fija,Se muestra las oportunidades de venta de las campañas de la fija por el canal cac y 123,Juana Gutierrez,"Campaña, Oportunidad, Fija","Diario 11 AM, 12 PM",18/12/2025,Frank Nick Zanabria Santos,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+79,Power BI,Mercado Masivo - Operativo,Venta de Paquetes Premium Upsell Fija,Seguimiento de la cantidad (transacciones) y costos fijo (ingresos) de las Venta de Paquetes Premium de los clientes Fija.,Juana Gutierrez,"Paquete, Venta, Costo, Fija, Transacción",Diaria 12PM,18/12/2025,Gonzalo Junior Machicao Atao,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+80,Power BI,Finanzas - Operativo,Reporte Payback,"El reporte representa los principales indicadores relacionados con los nuevos clientes del segmento masivo, con el objetivo de analizar su comportamiento y rentabilidad. Los indicadores incluidos son el Payback, que mide el tiempo estimado para recuperar la inversión realizada en la adquisición del cliente; el Arpu, que representa el ingreso promedio generado por cada cliente; y el Sac Unitario, que refleja el costo unitario de adquisición. Esta información permite evaluar la eficiencia de las estrategias de captación y la rentabilidad del segmento masivo en función del tiempo de permanencia de los clientes.",Orlando Benjamin Silva Chuquillanqui,"Venta, ARPU, Payback",Semanal - Viernes 8:00 PM,22/12/2025,"MACGYVER HARRINSON HORNA CESPEDES, Omar Alberto Zamudio",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+81,Power BI,Dirección General,Flash Prepago,Rocio Rupay,Prepago,,,23/12/2025,Miller Joaquin Obispo Velasquez,,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+82,Power BI,Mercado Masivo - Operativo,Flash de Bajas Móvil,"El tablero permite ver los indicadores de seguimiento de todas las Bajas. Permite explotar KPIs como %Churn ,cantidad de bajas y participación de bajas de prepago y postpago móvil",Jhemeli Alexandra Garcia Carlos,"Baja, Móvil, Prepago, Postpago, Churn","Diaria 12 PM , 1:30 PM",24/12/2025,CARLOS MARTIN MAYAUTE DE LA CRUZ,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+83,Power BI,Dirección General,Análisis Base Prepago,"Dashboard que muestra toda la base prepago en plataforma, se incluye un filtro para diferenciar aquellos que están reportados en la base de suscriptores, los cuales hacen referencia a los que han tenido tráfico en los últimos 3 meses.",Jorge Mondragon,"Línea, Prepago",Diario 9:30 AM,29/12/2025,Miller Joaquin Obispo Velasquez,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+84,Power BI,Mercado Masivo - Operativo,Tablero de Gestión Cadenas,"El Tablero de Gestión muestra información a nivel de línea de negocio Móvil (Canal Cadenas y Cac OLO). Ventas evolutivas vs LY. Entre las variables para analizar tenemos: Ventas, Alta, Porta, Reno, %Pack, Ingresos Postpago actual y año anterior, Arpu, Tkt Pack. Entre las dimensiones a analizar están: Pack/Chip, Línea de Negocio, Segmento, Forma de Contratación, Tipo de Contratación, Operador y Modalidad Cedente, Canal de Ventas, Punto de Venta, Equipos y PDv_2.",Hugo Marcial Villanueva Upson,"Gestión, Móvil, Evolución, Canal, Contrata, Venta","Diaria 10 AM, 11 AM, 12 PM y 1PM",30/12/2025,Jose Carlos Ugarte Miranda,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+85,Power BI,Finanzas - Operativo,Kardex Capex Variable,"Dashboard creado para tener un control visible de las entradas y salidas de inventario, poder llevar el seguimiento compras y refurbish. También poder realizar el seguimiento de los equipos por cliente y costo de equipos con el objetivo de facilitar la planificación y gestión eficiente de los recursos destinados a cada cliente. Se muestran indicadores de rotación, equipos disponibles equipos por reparar para poder evaluar sus variaciones.",Orlando Benjamin Silva Chuquillanqui,"Equipo, Inventario, Compra",Diario 4PM,31/12/2025,"Jordan Alvarado Apolinario - altamira, Omar Alberto Zamudio",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+86,Power BI,Mercado Masivo - Operativo,Notificaciones Automáticas Prepago,Seguimiento de las transacciones e importe de ingresos y porcentajes por capa en el flujo de las notificaciones de Crece Tu Recarga para líneas móviles prepago cuando realizan una recarga.,Juana Gutierrez,"Ingreso, Recarga, Prepago, Móvil, Transacción",Diaria 10 AM,9 de enero,Gonzalo Junior Machicao Atao,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+87,Power BI,Atención Presencial - Operativo,Clientes de Zona de Autoatención ATP,"Permite visualizar la cantidad de clientes únicos por día que visita la zona de autoatención (chip repuesto, recaudación de recibos y telepresencia) de un centro de atención al cliente, su visita a la barra del centro de atención así como la venta concretada a nivel de subcanal, región y oficina. Esto contribuirá a identificar la oportunidad de venta que se tiene con dichos clientes.",Gary Joe Montero Herrera,"Autogestión, Presencial",Diario - 11:30 am y 4:30 pm,14 de enero,Ruth Patricia Raimundo Ccahuana,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+88,Power BI,Servicio al Cliente - Operativo,Monitor de Recursos Administrativos - OSIPTEL,"El dashboard tiene como finalidad centralizar, visualizar y analizar la información relacionada con los recursos administrativos de apelaciones y quejas presentados por los abonados de servicios de telecomunicaciones de Claro, en el marco de las competencias del TRASU (Tribunal Administrativo de Solución de Reclamos de Usuarios) del OSIPTEL (Organismo Supervisor de Inversión Privada en Telecomunicaciones). Mayores detalles en la hoja ""Alcance""",Alan Medina,"Apelación, OSIPTEL, Queja",En Línea,19 de enero,"Alan Medina, Jaime Isahi Pillaca Contreras",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+89,Power BI,Atención Presencial - Operativo,Reporte de Aprendizaje ATP,"Permite visualizar el tiempo de aprendizaje en horas y cantidad de cursos finalizados del personal ATP a nivel de subcanal, región, oficina y colaborador. Dichos cursos son brindados mediante la plataforma Litmos y son cursos especializados en venta, postventa, autoatención, comerciales, lineamientos, entre otros. Esto contribuirá al control del cumplimiento del tiempo de aprendizaje de cada colaborador.",Gary Joe Montero Herrera,"Presencial, Capacitación, Curso, Litmos",Diario - 11:00 am y 2:00 pm,Hace 6 días,Ruth Patricia Raimundo Ccahuana,Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+90,Power BI,Operaciones Comerciales - Operativo,Facturación Cadenas Retail y Boticas,"Principalmente muestra la cantidades facturadas por socio comercial. Con la finalidad de medir la proporción facturada por cada Canal, tipo de documento y centro de distribución.",Danny Rojas,"Categoría Socio, Facturación, Socio Comercial",Semanal - Lunes - 12:00 PM,Hace 3 días,"Esteban Daniel Oscategui Valverde, Ruth Alvarez",Ver,,https://www.claro.com.pe/assets/havas/landing-tips/assets/steps/step0.png
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

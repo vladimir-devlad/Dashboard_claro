@@ -40,26 +40,35 @@
     width: 120px;
   }
   // Navegacion
+  // &-nav{
+  //   border: 1px solid green;
+  //   min-height: 100px;
+  // }
   &-list {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 4px;
+    border: 1px solid red;
+    // overflow-y: scroll;
   }
-  &-icon {
-    width: 18px;
-    height: 18px;
-    background-color: currentColor;
-    mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-    -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
-  }
+  // &-icon {
+  //   width: 8px;
+  //   height: 8px;
+  //   background-color: clr.$clr_claro;
+  //   border-radius: 50px;
+  //   // background-color: currentColor;
+  //   // mask: url("/assets/icons/icon-dash.svg") no-repeat center;
+  //   // -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
+  //   // mask-size: contain;
+  //   // -webkit-mask-size: contain;
+  // }
   &-link {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 16px 14px;
+    gap: 6px;
+    padding: 8px 8px;
     border-radius: 8px;
+    font-size: 14px;
     // color: clr.$clr_primary;
     transition:
       background-color 0.2s,

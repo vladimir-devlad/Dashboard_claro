@@ -34,7 +34,7 @@ $desktop: 1200px;
 // TABLET +
 @media (min-width: $tablet) {
   .dashboard {
-    grid-template-columns: 220px auto;
+    grid-template-columns: 270px auto;
     grid-template-rows: 70px 1fr 30px;
     grid-template-areas:
       "sidebar header"

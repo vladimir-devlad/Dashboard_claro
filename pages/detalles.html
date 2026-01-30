@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="js/app.js" defer></script>
+    <title>CLARO | Hub Power BI</title>
+  </head>
+  <body class="dashboard">
+    <!-- Header -->
+    <header class="dashboard__header">
+      <div class="dashboard__header-logo">
+        <img
+          src="/assets/images/logos/logo_claro.png"
+          alt="Claro"
+          class="dashboard__header-logo-img"
+        />
+      </div>
+      <h1 class="dashboard__header-title">Hub Power Bi</h1>
+    </header>
+    <!-- Sidebar -->
+    <aside class="dashboard__sidebar" id="dashboardSidebar">
+      <div class="dashboard__sidebar-content">
+        <div class="dashboard__sidebar-logo">
+          <img
+            src="assets/images/logos/logo_claro.png"
+            alt="Claro"
+            class="dashboard__sidebar-logo-img"
+          />
+        </div>
+
+        <!-- Navegacion -->
+        <nav class="dashboard__sidebar-nav">
+          <ul class="dashboard__sidebar-list" id="sidebarList">
+            <li class="dashboard__sidebar-item">
+              <a
+                href="#"
+                class="dashboard__sidebar-link dashboard__sidebar-link--active"
+              >
+                <span class="dashboard__sidebar-icon"></span>
+                <!-- <span><img src="./assets/icons/icon-dash.svg" alt=""></span> -->
+                <span class="dashboard__sidebar-label">Categoria 1</span>
+              </a>
+            </li>
+            <!-- <li class="dashboard__sidebar-item">
+              <a href="#" class="dashboard__sidebar-link">
+                <span class="dashboard__sidebar-icon"></span>
+                <span class="dashboard__sidebar-label">Categoria 2</span>
+              </a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+      <!-- <div id="cardsContainer"></div> -->
+    </aside>
+    <!-- Main Content -->
+    <main class="dashboard__main">
+      <div class="dashboard__main-content">
+        <section class="cards-powerbi">
+          <div class="cards-powerbi__information">
+            <div class="cards-powerbi__header">
+              <h2 class="cards-powerbi__title">Nombre de Categoria</h2>
+              <span class="detail__herramienta" id="herramienta">Power BI</span>
+            </div>
+
+            <div class="detail">
+              <!-- LEFT -->
+              <div class="detail__left">
+                <div class="detail__preview">Image</div>
+
+                <div class="detail__description">
+                  <span class="detail__label">Descripción</span>
+                  <p class="detail__value">Descripcion del tablero</p>
+                </div>
+                <div class="modal__buttons">
+                  <a href="#" class="btn btn--primary" target="_blank"
+                    >Acceder al dashboard</a
+                  >
+                  <a href="#" class="btn" target="_blank"
+                    >Ver manual</a
+                  >
+                </div>
+              </div>
+
+              <!-- RIGHT -->
+              <div class="detail__right">
+                <div class="detail__field">
+                  <span class="detail__label">Nombre del Stream</span>
+                  <span class="detail__value" id="nameStream"
+                    >Nombre del Stream</span
+                  >
+                </div>
+
+                <div class="detail__field">
+                  <span class="detail__label">Propietario</span>
+                  <span class="detail__value">Equipo BI</span>
+                </div>
+
+                <div class="detail__field">
+                  <span class="detail__label">Desarrollador</span>
+                  <span class="detail__value">Juan Pérez</span>
+                </div>
+                <div class="detail__field">
+                  <span class="detail__label">Fecha de publicación</span>
+                  <span class="detail__value">Juan Pérez</span>
+                </div>
+                <div class="detail__field">
+                  <span class="detail__label">Frecuencia de Carga</span>
+                  <span class="detail__value">Juan Pérez</span>
+                </div>
+                <div class="detail__field">
+                  <span class="detail__label">Keywords</span>
+                  <span class="detail__value">Juan Pérez</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards-powerbi__list" id="cardsContainer">
+            <!-- Cards -->
+            <!-- <article class="card">
+              <figure class="card__media">
+                <img
+                  src="assets/images/cards/1.png"
+                  alt="Card Image"
+                  class="card__image"
+                />
+              </figure>
+
+              <div class="card__content">
+                <div class="card__header">
+                  <h3 class="card__title" id="cardTitle">
+                    Interacciones de Clientes Únicos
+                  </h3>
+                </div>
+                <div class="card__tags" id="cardTags">
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
+                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
+                </div>
+              </div>
+            </article> -->
+          </div>
+          <div id="cardsContainer"></div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="dashboard__footer">Footer</footer>
+
+    <!-- Modal Card -->
+    <div class="modal" id="cardModal">
+      <div class="modal__overlay"></div>
+    </div>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
