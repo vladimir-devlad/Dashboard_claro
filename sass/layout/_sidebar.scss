@@ -3,83 +3,144 @@
 @use "../base/mixins" as mixi;
 
 .dashboard__sidebar {
-  grid-area: sidebar;
-  // display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 200;
-  overflow-y: auto;
-  max-height: 100vh;
-  position: sticky;
+  position: fixed;
   top: 0;
-  transition: all 0.3s ease;
-  padding: 0px 24px;
-
-  // height: 100%;
-  // overflow: hidden;
-
-  &-content {
-    display: inherit;
-    flex-direction: column;
-    gap: 24px;
-    height: 100vh;
-  }
-
-  // Logo
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  // height: auto;
+  background-color: white;
   &-logo {
+    height: 65px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 90px;
-  }
-  &-img {
-    width: 60px;
+    justify-content: space-between;
+    padding: 0 16px;
   }
   &-logo-img {
-    width: 120px;
+    width: 90px;
+    object-fit: contain;
   }
-  // Navegacion
-  // &-nav{
-  //   border: 1px solid green;
-  //   min-height: 100px;
-  // }
-  &-list {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    border: 1px solid red;
-    // overflow-y: scroll;
-  }
-  // &-icon {
-  //   width: 8px;
-  //   height: 8px;
-  //   background-color: clr.$clr_claro;
-  //   border-radius: 50px;
-  //   // background-color: currentColor;
-  //   // mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-  //   // -webkit-mask: url("/assets/icons/icon-dash.svg") no-repeat center;
-  //   // mask-size: contain;
-  //   // -webkit-mask-size: contain;
-  // }
-  &-link {
+  &-toggle {
+    background: none;
+    border: none;
+    font-size: 26px;
+    color: black;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 8px 8px;
-    border-radius: 8px;
-    font-size: 14px;
-    // color: clr.$clr_primary;
-    transition:
-      background-color 0.2s,
-      color 0.2s;
-    &:hover {
-      background: clr.$clr_claro;
-      color: clr.$clr_light;
+
+    .sidebar__icon-close {
+      display: none;
     }
   }
-  &-link--active {
-    color: clr.$clr_light;
-    background: clr.$clr_claro;
+  &-nav {
+    position: fixed;
+    top: 64px; /* justo debajo del header */
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 64px - 32px); /* ocupa toda la pantalla restante */
+    background-color: rgb(237, 235, 235);
+    display: none;
+    overflow-y: auto; /* si hay muchas opciones, se hace scroll */
+    z-index: 999;
+  }
+  &--open {
+    .dashboard__sidebar-nav {
+      display: block;
+      position: absolute;
+      top: 65px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+  &-list {
+    padding: 16px;
+  }
+
+  &-link {
+    display: block;
+    padding: 12px 0;
+    font-size: 18px;
+  }
+  &--open {
+    .dashboard__sidebar-nav {
+      display: block;
+    }
+    .dashboard__sidebar-toggle {
+      .sidebar__icon-menu {
+        display: none;
+      }
+      .sidebar__icon-close {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .dashboard__sidebar {
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 240px;
+    height: 100vh;
+    overflow: hidden;
+    &-logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 90px;
+    }
+    &-img {
+      width: 60px;
+    }
+    &-logo-img {
+      width: 120px;
+    }
+    &-toggle {
+      display: none;
+    }
+
+    &-nav {
+      position: static;
+      display: block;
+      height: auto;
+      background: transparent;
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 12px 8px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition:
+        background-color 0.2s,
+        color 0.2s;
+      &:hover {
+        background: clr.$clr_claro;
+        color: clr.$clr_light;
+      }
+    }
+    &-link--active {
+      color: clr.$clr_light;
+      background: clr.$clr_claro;
+    }
+    &--open {
+      .dashboard__sidebar-toggle {
+        .sidebar__icon-menu,
+        .sidebar__icon-close {
+          display: none;
+        }
+      }
+    }
   }
 }

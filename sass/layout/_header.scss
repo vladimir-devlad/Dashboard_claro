@@ -30,12 +30,12 @@
 }
 
 @media (min-width: 768px) {
-  .dashboard__header{
-    &-logo{
+  .dashboard__header {
+    &-logo {
       display: none;
     }
     &-title {
-    font: typo.$fontH1Desktop;
-  }
+      font: typo.$fontH1Desktop;
+    }
   }
 }

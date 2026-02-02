@@ -145,8 +145,7 @@ searchInput.addEventListener("input", (e) => {
 
   const filtered = allData.filter(
     (item) =>
-      item.stream === activeCategory &&
-      item.title.toLowerCase().includes(term),
+      item.stream === activeCategory && item.title.toLowerCase().includes(term),
   );
 
   renderCards(filtered);
@@ -175,3 +174,48 @@ document.addEventListener("keydown", (e) => {
     modal.classList.remove("modal--active");
   }
 });
+
+const sidebar = document.getElementById("dashboardSidebar");
+const toggle = sidebar.querySelector(".dashboard__sidebar-toggle");
+
+toggle.addEventListener("click", () => {
+  sidebar.classList.toggle("dashboard__sidebar--open");
+});
+
+function renderSidebar(data) {
+  sidebarList.innerHTML = "";
+
+  const categories = [...new Set(data.map((item) => item.stream))];
+
+  categories.forEach((stream, index) => {
+    const li = document.createElement("li");
+    li.className = "dashboard__sidebar-item";
+
+    li.innerHTML = `
+      <a href="#" class="dashboard__sidebar-link ${
+        index === 0 ? "dashboard__sidebar-link--active" : ""
+      }">
+        <span class="dashboard__sidebar-icon"></span>
+        <span class="dashboard__sidebar-label">${stream}</span>
+      </a>
+    `;
+
+    const link = li.querySelector(".dashboard__sidebar-link");
+
+    // Listener click en cada link
+    link.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      // Activar categoría
+      setActiveLink(li);
+      filterByCategory(stream);
+
+      // Cerrar menú en mobile
+      if (window.innerWidth < 1024) {
+        sidebar.classList.remove("dashboard__sidebar--open");
+      }
+    });
+
+    sidebarList.appendChild(li);
+  });
+}

@@ -18,11 +18,28 @@
     "header"
     "main"
     "footer";
+
+  &__sidebar {
+    grid-area: sidebar;
+  }
+
+  &__header {
+    grid-area: header;
+  }
+
+  &__main {
+    grid-area: main;
+    padding: 1.5rem;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
 }
 
 // Sidebar oculto en mobile
 .dashboard__sidebar {
-  display: none;
+  // display: none;
 }
 
 // Breakpoints
@@ -43,6 +60,6 @@ $desktop: 1200px;
   }
 
   .dashboard__sidebar {
-    display: flex;
+    // display: flex;
   }
 }
