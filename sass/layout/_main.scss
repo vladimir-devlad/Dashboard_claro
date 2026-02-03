@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    
   }
   &__header-search {
     display: none;
@@ -34,6 +35,13 @@
   &__title {
     font: typo.$fontH2Mobile;
     align-items: center;
+    line-height: 2rem;
+    letter-spacing: -.0255rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #000000e6;
+    text-transform: uppercase;
+    
   }
   &__description {
     font: typo.$fontParagraphMobile;
@@ -57,16 +65,15 @@
     &__information {
       text-align: left;
     }
-    &__title {
-      font: typo.$fontH2Desktop;
-    }
-    &__description {
+          &__description {
       font: typo.$fontParagraphDesktop;
     }
     &__list {
-      grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
-      min-height: 150px;
-      overflow-y: scroll;
+      grid-template-columns: repeat(4, minmax(0px, 1fr));
+
+      // grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+      // min-height: 150px;
+      // overflow-y: scroll;
       // overflow: hidden;
     }
     &__header {

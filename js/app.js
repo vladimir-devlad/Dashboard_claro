@@ -117,11 +117,19 @@ function createCard(item) {
   card.innerHTML = `
     <figure class="card__media">
       <img src="${item["url-portada"]}" alt="${item.title}" class="card__image">
+      <i class="card__eye ph ph-eye"></i>
     </figure>
 
     <div class="card__content">
-      <h3 class="card__title">${item.title}</h3>
-      <div class="card__tags">${keywordsHTML}</div>
+      <div class="card__information">
+        <h3 class="card__title">${item.title}</h3>
+        <p class="card__creator" >por <span id="cardCreator">Alan Medina</span></p>
+      </div>
+      
+      <span class="card__info" data-tooltip="Más información">
+  <i class="card__info ph ph-info"></i>
+</span>
+      
     </div>
   `;
 

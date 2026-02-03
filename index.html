@@ -26,13 +26,23 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <script type="text/javascript" src="js/app.js" defer></script>
-    <title>CLARO | Hub Power BI</title>
+    <title>CLARO | Catálogo de Dashboards</title>
   </head>
   <body class="dashboard">
     <!-- Header -->
     <header class="dashboard__header">
       <div class="dashboard__header-logo"></div>
-      <h1 class="dashboard__header-title">Hub Power Bi</h1>
+      <h1 class="dashboard__header-title">Catálogo de Dashboards</h1>
+      <div class="cards-powerbi__header-search">
+        <input
+          id="searchInput"
+          type="search"
+          name="search-dashboard"
+          placeholder="Buscar dashboard..."
+          class="header__input"
+          autocomplete="off"
+        />
+      </div>
     </header>
     <!-- Sidebar -->
     <aside class="dashboard__sidebar" id="dashboardSidebar">
@@ -80,17 +90,8 @@
           <div class="cards-powerbi__information">
             <div class="cards-powerbi__header">
               <h2 class="cards-powerbi__title">Nombre de Categoria</h2>
-              <div class="cards-powerbi__header-search">
-                <input
-                  id="searchInput"
-                  type="search"
-                  name="search-dashboard"
-                  placeholder="Buscar dashboard..."
-                  class="header__input"
-                  autocomplete="off"
-                />
-              </div>
             </div>
+
             <!-- <p class="cards-powerbi__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
@@ -99,6 +100,19 @@
 
           <div class="cards-powerbi__list" id="cardsContainer">
             <!-- Cards -->
+            <article>
+              <figure></figure>
+              <div class="card__content">
+                <div class="card__information">
+                  <h3 class="card__title" id="cardTitle">
+                  Interacciones de Clientes Únicos
+                </h3>
+                <p class="card__creator" >por <span id="cardCreator">Alan Medina</span></p>
+                </div>
+                
+                <i class="card__info ph ph-info"></i>
+              </div>
+            </article>
             <!-- <article class="card">
               <figure class="card__media">
                 <img
@@ -106,19 +120,14 @@
                   alt="Card Image"
                   class="card__image"
                 />
+                <i class="card__eye ph ph-eye"></i>
               </figure>
 
               <div class="card__content">
-                <div class="card__header">
                   <h3 class="card__title" id="cardTitle">
                     Interacciones de Clientes Únicos
                   </h3>
-                </div>
-                <div class="card__tags" id="cardTags">
-                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
-                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
-                  <span class="card__tag" id="cardTag">Key 1Key 1</span>
-                </div>
+                <i class="card__info ph ph-info"></i>
               </div>
             </article> -->
           </div>
@@ -156,7 +165,11 @@
         </div>
 
         <div class="modal__buttons">
-          <a href="#" class="btn btn--primary" id="modalPrimaryBtn" target="_blank"
+          <a
+            href="#"
+            class="btn btn--primary"
+            id="modalPrimaryBtn"
+            target="_blank"
             >Acceder al dashboard</a
           >
           <!-- <a href="#" class="btn btn--link">Ver detalle</a> -->
@@ -167,4 +180,3 @@
     <script src="js/app.js"></script>
   </body>
 </html>
-

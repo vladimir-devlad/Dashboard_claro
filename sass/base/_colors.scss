@@ -34,14 +34,14 @@ p{
   }
 }
 
-.card {
-  background: $clr_light;
-  border: 1px solid $clr_border_line_card;
-  &__tags {
-    background: $clr_light;
-    .card__tag {
-      background: rgba($clr_tag_card, 0.1);
-      color: $clr_tag_card;
-    }
-  }
-}
+// .card {
+//   background: $clr_light;
+//   border: 1px solid $clr_border_line_card;
+//   &__tags {
+//     background: $clr_light;
+//     .card__tag {
+//       background: rgba($clr_tag_card, 0.1);
+//       color: $clr_tag_card;
+//     }
+//   }
+// }

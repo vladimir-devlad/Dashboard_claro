@@ -150,20 +150,8 @@ p {
   background-color: #F8F7FA;
 }
 
-.card {
-  background: #ffffff;
-  border: 1px solid #dfeaf2;
-}
-.card__tags {
-  background: #ffffff;
-}
-.card__tags .card__tag {
-  background: rgba(0, 151, 169, 0.1);
-  color: #0097a9;
-}
-
 .dashboard {
-  font-family: "Arimo", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -188,7 +176,7 @@ p {
   width: 90px;
 }
 .dashboard__header-title {
-  font: 700 18px/normal "Arimo", sans-serif;
+  font: 700 18px/normal "Inter", sans-serif;
 }
 .dashboard__header-search {
   width: 260px;
@@ -200,7 +188,7 @@ p {
     display: none;
   }
   .dashboard__header-title {
-    font: 700 26px/normal "Arimo", sans-serif;
+    font: 700 26px/normal "Inter", sans-serif;
   }
 }
 .dashboard__sidebar {
@@ -358,11 +346,17 @@ p {
   display: none;
 }
 .cards-powerbi__title {
-  font: 700 16px/normal "Arimo", sans-serif;
+  font: 700 16px/normal "Inter", sans-serif;
   align-items: center;
+  line-height: 2rem;
+  letter-spacing: -0.0255rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.9019607843);
+  text-transform: uppercase;
 }
 .cards-powerbi__description {
-  font: 400 13px/normal "Arimo", sans-serif;
+  font: 400 13px/normal "Inter", sans-serif;
 }
 .cards-powerbi__list {
   display: grid;
@@ -377,16 +371,11 @@ p {
   .cards-powerbi__information {
     text-align: left;
   }
-  .cards-powerbi__title {
-    font: 600 22px/normal "Arimo", sans-serif;
-  }
   .cards-powerbi__description {
-    font: 400 14px/normal "Arimo", sans-serif;
+    font: 400 14px/normal "Inter", sans-serif;
   }
   .cards-powerbi__list {
-    grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
-    min-height: 150px;
-    overflow-y: scroll;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
   }
   .cards-powerbi__header {
     display: flex;
@@ -408,32 +397,93 @@ p {
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  gap: 8px;
+  border: 1px solid red;
+  padding: 10px 0;
+  min-width: 0;
+}
+.card__media {
+  position: relative;
   overflow: hidden;
-  border-radius: 10px;
-  width: auto;
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: inherit;
+  outline: none;
+  letter-spacing: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   cursor: pointer;
 }
+.card__media:hover .card__eye {
+  opacity: 1;
+}
+.card__media:hover .card__image {
+  filter: brightness(0.9);
+}
+.card__eye {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #0d99ff;
+  color: white;
+  padding: 6px;
+  border-radius: 6px;
+  opacity: 0;
+}
+.card__info {
+  position: relative;
+  font-size: 18px;
+  border-radius: 50px;
+  color: gray;
+  cursor: pointer;
+}
+.card__info:hover {
+  color: #0d99ff;
+}
+.card__info::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  background-color: #111;
+  font-size: 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  color: white;
+  opacity: 0;
+  transform: translateY(4px);
+  pointer-events: none;
+}
+.card__info:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
 .card__image {
+  display: block;
   width: 100%;
-  height: 110px;
-  border-radius: 4px;
+  height: 100%;
+  padding: 0;
   object-fit: cover;
+  overflow-clip-margin: unset;
+  border-radius: 6px;
+  border: 1px solid cyan;
 }
 .card__content {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  gap: 12px;
+  align-items: center;
+  cursor: default;
+  margin-top: 12px;
+  gap: 8px;
 }
 .card__title {
-  padding: 0 10px;
-  height: 40px;
-  font: 500 14px/normal "Arimo", sans-serif;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  cursor: pointer;
 }
 .card__tags {
   display: flex;
@@ -445,34 +495,9 @@ p {
 .card__tags .card__tag {
   padding: 6px;
   border-radius: 4px;
-  font: 400 13px/normal "Arimo", sans-serif;
+  font: 400 13px/normal "Inter", sans-serif;
 }
 
-@media (min-width: 768px) {
-  .card {
-    padding: 14px;
-    gap: 8px;
-    border-radius: 12px;
-  }
-  .card__image {
-    height: 120px;
-    border-radius: 6px;
-  }
-  .card__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 12px;
-  }
-  .card__title {
-    padding: 0 10px;
-    height: 60px;
-    font: 500 14px/normal "Arimo", sans-serif;
-  }
-  .card__tags .card__tag {
-    font: 300 12px/normal "Arimo", sans-serif;
-  }
-}
 .modal {
   position: fixed;
   inset: 0;
@@ -585,7 +610,7 @@ p {
 .btn--primary {
   border: 1px solid #da291c;
   color: #da291c;
-  font: 600 14px/normal "Arimo", sans-serif;
+  font: 600 14px/normal "Inter", sans-serif;
   width: 250px;
   border-radius: 50px;
   padding: 10px 24px;
@@ -598,7 +623,7 @@ p {
 }
 .btn--link {
   color: #0097a9;
-  font: 300 14px/normal "Arimo", sans-serif;
+  font: 300 14px/normal "Inter", sans-serif;
 }
 .btn--link:hover {
   text-decoration: underline;
