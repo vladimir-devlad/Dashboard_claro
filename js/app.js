@@ -128,9 +128,28 @@ function createCard(item) {
   card.addEventListener("click", () => {
     modalTitle.textContent = item.title;
     modalDescription.textContent = item.description;
-    modalButton.href = item["url-tablero"];
-    modal.classList.add("modal--active");
-  });
+    // modalButton.href = item["url-tablero"];
+    // modal.classList.add("modal--active");
+    const urlTablero = item["url-tablero"];
+    if (!urlTablero || urlTablero.trim() === "") {
+    // 🔒 DESHABILITAR BOTÓN
+    modalButton.removeAttribute("href");
+    modalButton.classList.add("btn--disabled");
+    modalButton.setAttribute("aria-disabled", "true");
+    modalButton.style.pointerEvents = "none";
+  } else {
+    // ✅ HABILITAR BOTÓN
+    modalButton.href = urlTablero;
+    modalButton.setAttribute("target", "_blank");
+    modalButton.classList.remove("btn--disabled");
+    modalButton.removeAttribute("aria-disabled");
+    modalButton.style.pointerEvents = "auto";
+  }
+
+  modal.classList.add("modal--active");
+});
+
+  // });
 
   container.appendChild(card);
 }

@@ -604,6 +604,11 @@ p {
   text-decoration: underline;
 }
 
+.btn--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
