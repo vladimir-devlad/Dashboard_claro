@@ -2,13 +2,13 @@
 @use "../base/typography" as typo;
 @use "../base/mixins" as mixi;
 
-.header__input {
-  padding: 12px 24px;
-  border: 2px solid clr.$clr_border_line;
-  border-radius: 50px;
-  width: 100%;
-  color: clr.$clr_title;
-}
+// .header__input {
+//   padding: 12px 24px;
+//   border: 2px solid clr.$clr_border_line;
+//   border-radius: 50px;
+//   width: 100%;
+//   color: clr.$clr_title;
+// }
 
 .btn {
   cursor: pointer;
@@ -26,7 +26,7 @@
       color: clr.$clr_light;
     }
   }
-  &--link{
+  &--link {
     color: clr.$clr_tag_card;
     font: typo.$fontBtnSecondary;
     &:hover {
@@ -38,4 +38,69 @@
 .btn--disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  width: 280px;
+  padding: 0.6rem 0.75rem;
+
+  background-color: #ffffff;
+  border: 1px solid #dfeaf2;
+  border-radius: 8px;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+
+  i {
+    font-size: 1.2rem;
+    color: #6b7280;
+    transition: color 0.2s ease;
+  }
+
+  /* Hover */
+  &:hover {
+    border-color: #2563eb;
+
+    i {
+      color: #2563eb;
+    }
+  }
+
+  /* Focus cuando escribes */
+  &:focus-within {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+
+    i {
+      color: #2563eb;
+    }
+  }
+}
+
+.header__input {
+  border: none;
+  outline: none;
+  width: 100%;
+
+  font-family: "Inter", sans-serif;
+  font-size: 0.95rem;
+  color: #111827;
+  background: transparent;
+
+  &::placeholder {
+    color: #9ca3af;
+  }
+
+  /* quita la X del input type="search" en Chrome */
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
 }

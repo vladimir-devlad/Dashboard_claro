@@ -1,13 +1,13 @@
-$clr_title: #1B0E2F;
-$clr_paragraph: #7A767F;
+$clr_title: #1b0e2f;
+$clr_paragraph: #7a767f;
 
 $clr_claro: #da291c;
 $clr_light: #ffffff;
 
 $clr_primary: #000000;
-$clr_secondary: #1B0E2F;
+$clr_secondary: #1b0e2f;
 
-$clr_bg: #F8F7FA;
+$clr_bg: #f8f7fa;
 $clr_border_line: #e6e6e6;
 $clr_border_line_card: #dfeaf2;
 
@@ -18,10 +18,12 @@ $clr_tag_card: #0097a9;
 
 $footer_bg: white;
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
   color: $clr_title;
 }
-p{
+p {
   color: $clr_paragraph;
 }
 

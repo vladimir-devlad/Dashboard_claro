@@ -4,14 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>CLARO | Catálogo de Dashboards</title>
+    <meta
+      name="description"
+      content="Catálogo corporativo de dashboards profesionales desarrollados en Power BI."
+    />
+
+    <meta property="og:title" content="Catalogo de Dashboards Power BI" />
+    <meta
+      property="og:description"
+      content="Explora el catálogo corporativo de dashboards desarrollados en Power BI."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://clarotableros.com/" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -24,16 +34,33 @@
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <script type="text/javascript" src="js/app.js" defer></script>
-    <title>CLARO | Catálogo de Dashboards</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
+
+    <script defer src="js/app.js"></script>
   </head>
+
   <body class="dashboard">
     <!-- Header -->
     <header class="dashboard__header">
       <div class="dashboard__header-logo"></div>
       <h1 class="dashboard__header-title">Catálogo de Dashboards</h1>
-      <div class="cards-powerbi__header-search">
+      <div class="header__search">
+        <i class="ph ph-magnifying-glass"></i>
         <input
           id="searchInput"
           type="search"
@@ -88,9 +115,9 @@
       <div class="dashboard__main-content">
         <section class="cards-powerbi">
           <div class="cards-powerbi__information">
-            <div class="cards-powerbi__header">
-              <h2 class="cards-powerbi__title">Nombre de Categoria</h2>
-            </div>
+            <!-- <div class="cards-powerbi__header"> -->
+            <h2 class="cards-powerbi__title">Nombre de Categoria</h2>
+            <!-- </div> -->
 
             <!-- <p class="cards-powerbi__description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -105,11 +132,13 @@
               <div class="card__content">
                 <div class="card__information">
                   <h3 class="card__title" id="cardTitle">
-                  Interacciones de Clientes Únicos
-                </h3>
-                <p class="card__creator" >por <span id="cardCreator">Alan Medina</span></p>
+                    Interacciones de Clientes Únicos
+                  </h3>
+                  <p class="card__creator">
+                    Creado por <span id="cardCreator">Alan Medina</span>
+                  </p>
                 </div>
-                
+
                 <i class="card__info ph ph-info"></i>
               </div>
             </article>
@@ -177,6 +206,6 @@
       </div>
     </div>
     <!-- <script src="js/app.js"></script> -->
-    <script src="js/app.js"></script>
+    <!-- <script src="js/app.js"></script> -->
   </body>
 </html>

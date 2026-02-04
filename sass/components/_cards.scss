@@ -3,17 +3,6 @@
 @use "../base/mixins" as mixi;
 
 .card {
-  // display: flex;
-  // flex-direction: column;
-  // padding: 10px 0;
-  // // gap: 8px;
-  // overflow: hidden;
-  // border-radius: 10px;
-  // width: auto;
-  // text-align: center;
-  // cursor: pointer;
-  border: 1px solid red;
-
   padding: 10px 0;
   min-width: 0;
 
@@ -48,18 +37,18 @@
     padding: 6px;
     border-radius: 6px;
     opacity: 0;
-    
   }
-  &__info{
+  &__info {
     position: relative;
     font-size: 18px;
     border-radius: 50px;
     color: gray;
+    margin-right: 10px;
     cursor: pointer;
-    &:hover{
+    &:hover {
       color: #0d99ff;
     }
-    &::after{
+    &::after {
       content: attr(data-tooltip);
       position: absolute;
       bottom: calc(100% + 8px);
@@ -69,8 +58,7 @@
       padding: 6px 10px;
       border-radius: 6px;
       white-space: nowrap;
-    color: white;
-
+      color: white;
 
       opacity: 0;
       transform: translateY(4px);
@@ -93,27 +81,31 @@
     object-fit: cover;
     overflow-clip-margin: unset;
     border-radius: 6px;
-    border: 1px solid cyan;
+    border: 1px solid #dfeaf2;
   }
-  
 
   &__content {
-    // display: flex;
-    // gap: 12px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     cursor: default;
     margin-top: 12px;
     gap: 8px;
   }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    // margin: -4px 0 -3px;
+    gap: 4px;
+    min-width: 0;
+  }
+
   &__title {
     // padding: 0 10px;
     // height: 40px;
     font-weight: 500;
     display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
     overflow: hidden;
     cursor: pointer;
   }
@@ -155,7 +147,7 @@
 //       font: typo.$fontH3_sm;
 //     }
 
-//       &__tags {
+//     &__tags {
 //       .card__tag {
 //         font: typo.$fontLabelTag_xs;
 //       }

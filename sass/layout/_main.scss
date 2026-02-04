@@ -23,25 +23,26 @@
 
     // flex-shrink: 0;
   }
-  &__header {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    
-  }
+  // &__header {
+  //   display: flex;
+  //   justify-content: center;
+  //   width: 100%;
+  // }
   &__header-search {
     display: none;
   }
   &__title {
+    width: 100%;
     font: typo.$fontH2Mobile;
     align-items: center;
     line-height: 2rem;
-    letter-spacing: -.0255rem;
+    letter-spacing: -0.0255rem;
     font-weight: 600;
     font-size: 1.2rem;
     color: #000000e6;
     text-transform: uppercase;
-    
+    padding: 0 0 28px 0;
+    border-bottom: 1px solid #dfeaf2;
   }
   &__description {
     font: typo.$fontParagraphMobile;
@@ -65,7 +66,7 @@
     &__information {
       text-align: left;
     }
-          &__description {
+    &__description {
       font: typo.$fontParagraphDesktop;
     }
     &__list {
