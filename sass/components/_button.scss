@@ -45,7 +45,8 @@
   align-items: center;
   gap: 0.5rem;
 
-  width: 280px;
+  // width: 280px;
+  width: 100%;
   padding: 0.6rem 0.75rem;
 
   background-color: #ffffff;
@@ -102,5 +103,10 @@
   &::-webkit-search-results-button,
   &::-webkit-search-results-decoration {
     display: none;
+  }
+}
+@media (min-width: 768px) {
+  .header__search {
+  width: 380px;
   }
 }

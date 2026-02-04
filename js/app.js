@@ -6,6 +6,11 @@ const container = document.getElementById("cardsContainer");
 const modal = document.getElementById("cardModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalDescription = document.getElementById("modalDescription");
+const modalPropietario = document.getElementById("modalPropietario");
+const modalDesarrollador = document.getElementById("modalDesarrollador");
+const modalPublicacion = document.getElementById("modalPublicacion");
+const modalFrecuencia = document.getElementById("modalFrecuencia");
+
 const modalButton = modal.querySelector(".btn--primary");
 const closeModal = document.getElementById("closeModal");
 const overlay = document.querySelector(".modal__overlay");
@@ -148,7 +153,7 @@ function createCard(item) {
     <div class="card__content">
       <div class="card__information">
         <h3 class="card__title">${item.title}</h3>
-        <p class="card__creator" >por <span id="cardCreator">Alan Medina</span></p>
+        <p class="card__creator" >por <span id="cardCreator">${item.creator}</span></p>
       </div>
       
       <span class="card__info" data-tooltip="Más información">
@@ -158,29 +163,36 @@ function createCard(item) {
     </div>
   `;
 
-  card.addEventListener("click", () => {
+  const image = card.querySelector(".card__image");
+
+  image.addEventListener("click", (e) => {
+    e.stopPropagation();
+
+    const url = item["url-tablero"];
+    if (url && url.trim() !== "") {
+      window.open(url, "_blank");
+    }
+  });
+
+  const infoBtn = card.querySelector(".card__info");
+
+  infoBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+
     modalTitle.textContent = item.title;
     modalDescription.textContent = item.description;
-    // modalButton.href = item["url-tablero"];
-    // modal.classList.add("modal--active");
-    const urlTablero = item["url-tablero"];
-    if (!urlTablero || urlTablero.trim() === "") {
-      // 🔒 DESHABILITAR BOTÓN
-      modalButton.removeAttribute("href");
-      modalButton.classList.add("btn--disabled");
-      modalButton.setAttribute("aria-disabled", "true");
-      modalButton.style.pointerEvents = "none";
-    } else {
-      // ✅ HABILITAR BOTÓN
-      modalButton.href = urlTablero;
-      modalButton.setAttribute("target", "_blank");
-      modalButton.classList.remove("btn--disabled");
-      modalButton.removeAttribute("aria-disabled");
-      modalButton.style.pointerEvents = "auto";
-    }
+    modalPropietario.textContent = item.creator;
+    modalDesarrollador.textContent = item.developer;
+    modalPublicacion.textContent = item.publicado;
+    modalFrecuencia.textContent = item.actualizacion;
 
     modal.classList.add("modal--active");
   });
+
+  // modalButton.href = item["url-tablero"];
+  // modal.classList.add("modal--active");
+
+  // });
 
   // });
 

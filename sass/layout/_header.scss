@@ -3,11 +3,11 @@
 
 .dashboard__header {
   grid-area: header;
-  position: sticky;
-  top: 0;
-  right: 0;
-  z-index: 200;
-
+  // position: sticky;
+  // top: 0;
+  // right: 0;
+  // z-index: 200;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,8 +22,10 @@
   }
   &-title {
     font: typo.$fontH1Mobile;
+    display: none;
   }
   &-search {
+    align-items: center;
     width: 280px;
     text-align: center;
   }
@@ -36,6 +38,7 @@
     }
     &-title {
       font: typo.$fontH1Desktop;
+      display: block;
     }
   }
 }

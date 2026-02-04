@@ -18,8 +18,8 @@
   &__content {
     position: relative;
     background: clr.$clr_light;
-    max-width: 300px;
-    margin: 10% auto;
+    width: 800px;
+    margin: auto;
     padding: 30px;
     border-radius: 20px;
     z-index: 1;
@@ -49,59 +49,130 @@
     }
   }
   &__information {
-    display: inherit;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
   }
   &__title {
-    font-size: typo.$fs-md;
-    font-weight: 600;
-    min-width: 250px;
-    margin-top: 20px;
   }
-  &__description {
-    font-size: typo.$fs-sm;
-    font-weight: 300;
-    height: 150px;
-    overflow-y: scroll;
-    text-overflow: ellipsis;
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
-  &__buttons {
-    display: inherit;
+  &__row {
+    display: flex;
     flex-direction: column;
+  }
+  &__label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #414651;
+    text-align: start;
+  }
+
+  &__value {
+    font-size: 14px;
+    border: 1px solid #d5d7da;
+    border-radius: 8px;
+    padding: 20px 14px;
+    color: #717680;
+    display: flex;
+    padding: 10px 14px;
     align-items: center;
-    gap: 24px;
+    gap: 8px;
+    align-self: stretch;
+    font-weight: 400;
+    text-align: start;
   }
+  &__row--full {
+    grid-column: 1 / -1;
+  }
+  // &__information {
+  //   display: inherit;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   gap: 16px;
+  // }
+  // &__title {
+  //   font-size: typo.$fs-md;
+  //   font-weight: 600;
+  //   min-width: 250px;
+  //   margin-top: 20px;
+  // }
+  // &__description {
+  //   font-size: typo.$fs-sm;
+  //   font-weight: 300;
+  //   height: 150px;
+  //   overflow-y: scroll;
+  //   text-overflow: ellipsis;
+  // }
+  // &__buttons {
+  //   display: inherit;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   gap: 24px;
+  // }
 }
 
-@media (min-width: 768px) {
-  .modal {
-    &__content {
-      max-width: 450px;
-      padding: 30px;
-      border-radius: 30px;
-      gap: 10px;
-    }
-    &__image {
-      display: block;
-      max-width: 80px;
-    }
+// @media (min-width: 768px) {
+//   .modal {
+//     &__content {
+//       max-width: 450px;
+//       padding: 30px;
+//       border-radius: 30px;
+//       gap: 10px;
+//     }
+//     &__image {
+//       display: block;
+//       max-width: 80px;
+//     }
 
-    &__close {
-      position: absolute;
-      top: 25px;
-      right: 25px;
-    }
-    &__description {
-      font-size: typo.$fs-sm;
-      font-weight: 300;
-      height: 150px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    &__buttons {
-      margin-top: 24px;
-    }
-  }
-}
+//     &__close {
+//       position: absolute;
+//       top: 25px;
+//       right: 25px;
+//     }
+//     &__description {
+//       font-size: typo.$fs-sm;
+//       font-weight: 300;
+//       height: 150px;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//     }
+//     &__buttons {
+//       margin-top: 24px;
+//     }
+//   }
+// }
+
+// <div class="modal__information">
+//           <h3 class="modal__title"> Informacion del dashboard</h3>
+
+//           <div class="modal__body">
+//             <div class="modal__row">
+//               <span class="modal__label">Titulo</span>
+//               <span class="modal__value" id="modalTitle" >Nombre del dashboard</span>
+//             </div>
+//             <div class="modal__row">
+//               <span class="modal__label">Propietario</span>
+//               <span class="modal__value" id="modalPropietario" ></span>
+//             </div>
+//             <div class="modal__row">
+//               <span class="modal__label">Desarrollador</span>
+//               <span class="modal__value" id="modalDesarrollador"></span>
+//             </div>
+//             <div class="modal__row">
+//               <span class="modal__label">Fecha Publicación</span>
+//               <span class="modal__value" id="modalPublicacion"></span>
+//             </div>
+//             <div class="modal__row">
+//               <span class="modal__label">Frecuencia de carga</span>
+//               <span class="modal__value" id="modalFrecuencia"></span>
+//             </div>
+//             <div class="modal__row">
+//               <span class="modal__label">Descripción</span>
+//               <span class="modal__value" id="modalDescription">Nombre del dashboard</span>
+//             </div>
+//           </div>
