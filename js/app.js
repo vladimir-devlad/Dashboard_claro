@@ -48,7 +48,7 @@ fetch("json/data.json")
 function renderSidebar(data) {
   sidebarList.innerHTML = "";
 
-  const PRIORITY_CATEGORY = "Tecnologia";
+  const PRIORITY_CATEGORY = "Direccion Ejecutiva";
 
   function normalize(text) {
     return text
